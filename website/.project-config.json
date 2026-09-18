@@ -1,0 +1,34 @@
+{
+  "build_command": "pnpm run build",
+  "capabilities": [],
+  "dev_command": "pnpm run dev",
+  "env_vars": {},
+  "experiments": null,
+  "git_remote": {
+    "repo_url": "https://7f0548f6b28a1758d9bf7be630d36cb4.artifacts.cloudflare.net/git/prod/FdQZGUbuUodDq6WyfGxSTb.git",
+    "expiration": "2026-09-19T16:37:57.053Z",
+    "token": "art_v2_x_bf19440bed52a90a60e833514a3f858f053d5a02?expires=1789835877",
+    "backend": "GIT_BACKEND_ARTIFACTS"
+  },
+  "name": "sudais-ai-profile",
+  "path": "/home/ubuntu/sudais-ai-profile",
+  "port": 3000,
+  "secrets": {
+    "BUILT_IN_FORGE_API_KEY": "dd3mShfGuRPMNykNJ4NQTk",
+    "BUILT_IN_FORGE_API_URL": "https://forge.manus.ai",
+    "JWT_SECRET": "LohhSWHWsWfN4mM4vwtZJd",
+    "OAUTH_SERVER_URL": "https://api.manus.im",
+    "OWNER_NAME": "Muhammad Sudais",
+    "OWNER_OPEN_ID": "b55QD2MEKhjEXjtrirTAdC",
+    "VITE_ANALYTICS_ENDPOINT": "https://manus-analytics.com",
+    "VITE_ANALYTICS_WEBSITE_ID": "93bf4170-679c-4daa-bf6b-13f6b50dd042",
+    "VITE_APP_ID": "FdQZGUbuUodDq6WyfGxSTb",
+    "VITE_APP_LOGO": "",
+    "VITE_APP_TITLE": "Sudais AI — GitHub Profile Studio",
+    "VITE_FRONTEND_FORGE_API_KEY": "nQU96iBJssvp2KTGaMTYb2",
+    "VITE_FRONTEND_FORGE_API_URL": "https://forge.manus.ai",
+    "VITE_OAUTH_PORTAL_URL": "https://manus.im"
+  },
+  "template_id": "web-static",
+  "test_command": "pnpm test"
+}
