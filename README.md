@@ -15,12 +15,18 @@
 
 <!-- HERO — text-first editorial profile header with lightweight animated lines -->
 
-<h1 align="center">Muhammad Sudais</h1>
-
-<p align="center">
-  <strong>Applied AI Engineer · RAG Systems · Python</strong><br />
-  <sub>BS Artificial Intelligence · Shifa Tameer-e-Millat University · 2024–2028 · Pakistan (GMT+5)</sub>
-</p>
+<table>
+<tr>
+<td valign="middle" width="78%">
+<h1>Muhammad Sudais</h1>
+<strong>Applied AI Engineer · RAG Systems · Python</strong><br />
+<sub>BS Artificial Intelligence · Shifa Tameer-e-Millat University · 2024–2028 · Pakistan (GMT+5)</sub>
+</td>
+<td align="right" valign="middle" width="22%">
+<a href="https://app.lottiefiles.com/share/7fe6e11c-2b32-4a63-961d-696223bb12ca"><img src="https://raw.githubusercontent.com/sudais-ai/sudais-ai/main/assets/sudais-lottie.gif" width="180" alt="Animated Lottie AI robot visual — open the animation" /></a>
+</td>
+</tr>
+</table>
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Space+Mono&weight=700&size=27&duration=2600&pause=850&color=B28630&center=true&vCenter=true&width=820&height=55&lines=Build+the+signal+behind+the+answer.;Evidence-first+AI+systems.;Retrieval+%2B+verification+%2B+working+products." alt="Animated headline: Build the signal behind the answer" width="820" />
