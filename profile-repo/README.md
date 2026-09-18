@@ -24,41 +24,49 @@
 <h1 align="center">Muhammad Sudais</h1>
 
 <p align="center">
-  <strong>AI / Machine Learning · Python Developer</strong><br />
-  BS Artificial Intelligence · Shifa Tameer-e-Millat University (Sept 2024 – June 2028)<br />
-  Malakand Division, Khyber Pakhtunkhwa, Pakistan
+  <strong>Applied AI Engineer · RAG Systems · Python</strong><br />
+  <sub>BS Artificial Intelligence · Shifa Tameer-e-Millat University · 2024–2028</sub><br />
+  <sub>Malakand Division, Khyber Pakhtunkhwa, Pakistan</sub>
 </p>
 
 <p align="center">
   <img
-    src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&duration=2600&pause=900&color=FFD700&width=470&height=42&lines=AI+%2F+Machine+Learning+Developer;I+build+practical+RAG+systems;LLM+apps+with+retrieval+%2B+verification;Turning+ML+ideas+into+working+products"
-    alt="Rotating headline: AI / Machine Learning Developer · I build practical RAG systems · LLM apps with retrieval and verification · Turning ML ideas into working products"
-    width="470"
+    src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&duration=2600&pause=900&color=FFD700&center=true&vCenter=true&width=620&height=44&lines=AI+%2F+Machine+Learning+Developer;I+build+practical+RAG+systems;LLM+apps+with+retrieval+%2B+verification;Turning+ML+ideas+into+working+products"
+    alt="Rotating headline: Applied AI engineer building RAG, LLM, and ML products"
+    width="620"
   />
 </p>
 
 <p align="center">
-  I build applied-AI systems where the answer ships with its evidence.<br />
-  Retrieval, document pipelines, and output verification — mostly in Python.
+  <img
+    src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=15&duration=2300&pause=700&color=8B8B8B&center=true&vCenter=true&width=620&height=30&lines=TradeReady+AI+%C2%B7+VindicAI+%C2%B7+Tool--Wear+Detection;Evidence-first+systems+%C2%B7+Reliable+pipelines+%C2%B7+Auditable+outputs"
+    alt="Rotating featured project line: TradeReady AI, VindicAI, and Tool-Wear Detection"
+    width="620"
+  />
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/status-open_to_AI%2FML_internships-FFD700?style=flat-square&labelColor=111111" alt="Status: open to AI/ML internships" />
-  <img src="https://img.shields.io/badge/timezone-PK%20GMT%2B5-1A1A1A?style=flat-square&labelColor=111111" alt="Timezone: Pakistan, GMT+5" />
-  <img src="https://img.shields.io/badge/focus-RAG%20%C2%B7%20LLM%20apps%20%C2%B7%20ML-1A1A1A?style=flat-square&labelColor=111111" alt="Focus areas" />
+  <strong>Evidence-led AI engineering for systems that are useful, inspectable, and built to recover.</strong><br />
+  <sub>Retrieval · document pipelines · output verification · mostly in Python</sub>
 </p>
 
 <p align="center">
-  <a href="https://msudaisai.netlify.app"><img src="https://img.shields.io/badge/Portfolio-msudaisai.netlify.app-1A1A1A?style=for-the-badge&logo=netlify&logoColor=FFD700&labelColor=111111" alt="Portfolio website" /></a>
-  <a href="https://www.linkedin.com/in/muhammad-sudais-/"><img src="https://img.shields.io/badge/LinkedIn-Connect-1A1A1A?style=for-the-badge&logo=linkedin&logoColor=FFD700&labelColor=111111" alt="LinkedIn" /></a>
-  <a href="mailto:sudaisoo72@gmail.com"><img src="https://img.shields.io/badge/Email-sudaisoo72%40gmail.com-1A1A1A?style=for-the-badge&logo=gmail&logoColor=FFD700&labelColor=111111" alt="Email me" /></a>
-  <a href="https://github.com/sudais-ai"><img src="https://img.shields.io/badge/GitHub-sudais--ai-1A1A1A?style=for-the-badge&logo=github&logoColor=FFD700&labelColor=111111" alt="GitHub profile" /></a>
-  <a href="https://x.com/JGaHSzU3U641571"><img src="https://img.shields.io/badge/X-Follow-1A1A1A?style=for-the-badge&logo=x&logoColor=FFD700&labelColor=111111" alt="X / Twitter" /></a>
+  <img src="https://img.shields.io/badge/STATUS-open_to_AI%2FML_internships-FFD700?style=flat-square&labelColor=111111" alt="Open to AI and ML internships" />
+  <img src="https://img.shields.io/badge/FOCUS-RAG_%C2%B7_LLM_%C2%B7_ML-1A1A1A?style=flat-square&labelColor=111111" alt="Focus: RAG, LLM, and machine learning" />
+  <img src="https://img.shields.io/badge/BASE-Pakistan_%C2%B7_GMT%2B5-1A1A1A?style=flat-square&labelColor=111111" alt="Based in Pakistan, GMT plus 5" />
 </p>
 
 <p align="center">
-  <a href="https://www.fiverr.com/s/K3ea0jW"><img src="https://img.shields.io/badge/HIRE_ME-on_Fiverr-FFD700?style=for-the-badge&logo=fiverr&logoColor=111111&labelColor=111111" alt="Hire me on Fiverr" /></a>
-  <a href="https://www.upwork.com/freelancers/~0104d5606ec877e71d"><img src="https://img.shields.io/badge/HIRE_ME-via_Upwork-FFD700?style=for-the-badge&logo=upwork&logoColor=111111&labelColor=111111" alt="Hire me on Upwork" /></a>
+  <a href="https://msudaisai.netlify.app"><img src="https://img.shields.io/badge/EXPLORE-Portfolio-FFD700?style=for-the-badge&logo=netlify&logoColor=111111&labelColor=111111" alt="Explore portfolio" /></a>
+  <a href="https://github.com/sudais-ai"><img src="https://img.shields.io/badge/FOLLOW-GitHub-1A1A1A?style=for-the-badge&logo=github&logoColor=FFD700&labelColor=111111" alt="Follow on GitHub" /></a>
+  <a href="https://www.linkedin.com/in/muhammad-sudais-/"><img src="https://img.shields.io/badge/CONNECT-LinkedIn-1A1A1A?style=for-the-badge&logo=linkedin&logoColor=FFD700&labelColor=111111" alt="Connect on LinkedIn" /></a>
+  <a href="mailto:sudaisoo72@gmail.com"><img src="https://img.shields.io/badge/CONTACT-Email-1A1A1A?style=for-the-badge&logo=gmail&logoColor=FFD700&labelColor=111111" alt="Contact by email" /></a>
+</p>
+
+<p align="center">
+  <a href="https://www.fiverr.com/s/K3ea0jW"><img src="https://img.shields.io/badge/HIRE-Fiverr-FFD700?style=for-the-badge&logo=fiverr&logoColor=111111&labelColor=111111" alt="Hire on Fiverr" /></a>
+  <a href="https://www.upwork.com/freelancers/~0104d5606ec877e71d"><img src="https://img.shields.io/badge/HIRE-Upwork-FFD700?style=for-the-badge&logo=upwork&logoColor=111111&labelColor=111111" alt="Hire on Upwork" /></a>
+  <a href="https://x.com/JGaHSzU3U641571"><img src="https://img.shields.io/badge/FOLLOW-X-1A1A1A?style=for-the-badge&logo=x&logoColor=FFD700&labelColor=111111" alt="Follow on X" /></a>
 </p>
 
 <p align="center">
@@ -94,7 +102,7 @@ I am a **BS Artificial Intelligence student** building practical AI systems in P
 
 ## Selected work
 
-### TradeReady AI · evidence-backed trade-compliance copilot
+### ◈ TradeReady AI · evidence-backed trade-compliance copilot
 
 Import shipment documents, build a requirements checklist, and receive assessments that cite the exact source passage.
 
@@ -113,7 +121,7 @@ Import shipment documents, build a requirements checklist, and receive assessmen
 Each verdict stores confidence, model metadata, and evidence connected to a document chunk. The repository also includes session security, audit logging, health checks, soft deletes, and stale-job recovery.
 
 
-### VindicAI · research and case workspace
+### ◈ VindicAI · research and case workspace
 
 A multi-tenant foundation where claims stay attached to evidence, citations, research runs, and audit history.
 
@@ -132,7 +140,7 @@ A multi-tenant foundation where claims stay attached to evidence, citations, res
 Foundation phase: tenant-isolation checks and automated tests are documented in the repository. Email/password screens remain mock-only, and production deployment is not claimed.
 
 
-### Tool-Wear Detection · applied machine learning notebook
+### ◈ Tool-Wear Detection · applied machine learning notebook
 
 A reproducible CNC sensor-data workflow covering cleaning, feature engineering, model comparison, and error inspection.
 
