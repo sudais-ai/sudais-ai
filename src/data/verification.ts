@@ -1,0 +1,305 @@
+export type Status = "ok" | "warn" | "bad" | "unused";
+
+export type Check = {
+  target: string;
+  kind: "link" | "widget" | "claim" | "workflow" | "repo";
+  method: string;
+  status: Status;
+  note: string;
+  url?: string;
+};
+
+export const statusMeta: Record<Status, { label: string; color: string; ring: string; glyph: string }> = {
+  ok: { label: "Verified", color: "text-ok", ring: "border-ok/40 bg-ok/10", glyph: "✓" },
+  warn: { label: "Needs a click", color: "text-warn", ring: "border-warn/40 bg-warn/10", glyph: "!" },
+  bad: { label: "Unreachable", color: "text-bad", ring: "border-bad/40 bg-bad/10", glyph: "✕" },
+  unused: { label: "Deliberately excluded", color: "text-muted", ring: "border-line bg-panel3", glyph: "—" },
+};
+
+export const checks: Check[] = [
+  // ——— links ———
+  {
+    target: "github.com/sudais-ai",
+    kind: "link",
+    method: "GitHub REST + profile page",
+    status: "ok",
+    note: "Resolves. Name field reads “Muhammad Sudais”; 56 public repos; default branch of the profile repo is main.",
+    url: "https://github.com/sudais-ai",
+  },
+  {
+    target: "msudaisai.netlify.app",
+    kind: "link",
+    method: "HTTP fetch",
+    status: "ok",
+    note: "Live and reachable. Kept as a CTA, but see the claim warning below — its copy was not imported.",
+    url: "https://msudaisai.netlify.app",
+  },
+  {
+    target: "linkedin.com/in/muhammad-sudais-",
+    kind: "link",
+    method: "HTTP fetch",
+    status: "warn",
+    note: "LinkedIn returns 403 to non-browser agents, so only the format plus its presence on your GitHub profile object could be confirmed. Click once to be sure.",
+    url: "https://www.linkedin.com/in/muhammad-sudais-/",
+  },
+  {
+    target: "x.com/JGaHSzU3U641571",
+    kind: "link",
+    method: "HTTP fetch (page title)",
+    status: "ok",
+    note: "Title returned: “Muhammad Sudais (@JGaHSzU3U641571) on X”. Handle confirmed to belong to you.",
+    url: "https://x.com/JGaHSzU3U641571",
+  },
+  {
+    target: "fiverr.com/s/K3ea0jW",
+    kind: "link",
+    method: "HTTP fetch",
+    status: "warn",
+    note: "Fiverr blocks automated agents. Verify the short link lands on your gig, then leave it as a HIRE ME action.",
+    url: "https://www.fiverr.com/s/K3ea0jW",
+  },
+  {
+    target: "upwork.com/freelancers/~0104d5606ec877e71d",
+    kind: "link",
+    method: "HTTP fetch",
+    status: "warn",
+    note: "Upwork blocks agents. Confirm the profile is publicly visible — hidden Upwork profiles show recruiters a 404.",
+    url: "https://www.upwork.com/freelancers/~0104d5606ec877e71d",
+  },
+  {
+    target: "mailto:sudaisoo72@gmail.com",
+    kind: "link",
+    method: "Format check",
+    status: "warn",
+    note: "Valid address shape; no bounce test is possible from here.",
+  },
+  {
+    target: "trade-ready-ai.vercel.app",
+    kind: "link",
+    method: "HTTP fetch (root + /api/health)",
+    status: "bad",
+    note: "Both requests failed from my environment even though the URL is the homepage field saved on your repo. Redeploy or remove the LIVE_DEMO badge.",
+    url: "https://trade-ready-ai.vercel.app",
+  },
+  {
+    target: "avatars.githubusercontent.com/u/203084465",
+    kind: "link",
+    method: "HTTP fetch",
+    status: "ok",
+    note: "Serves your GitHub avatar — used as the hero portrait so the profile needs zero image uploads.",
+    url: "https://avatars.githubusercontent.com/u/203084465?s=256&v=4",
+  },
+  {
+    target: "GitHub Pages",
+    kind: "link",
+    method: "HTTP fetch",
+    status: "ok",
+    note: "Not required: the README reads snake SVGs from raw.githubusercontent.com on the output branch.",
+  },
+
+  // ——— widgets ———
+  {
+    target: "readme-typing-svg.demolab.com",
+    kind: "widget",
+    method: "Requested with the final query string",
+    status: "ok",
+    note: "Renders the animated headline and the footer line. Used twice, and only twice.",
+    url: "https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&duration=2600&pause=900&color=FFD700&width=470&height=42&lines=AI+%2F+Machine+Learning+Developer",
+  },
+  {
+    target: "streak-stats.demolab.com",
+    kind: "widget",
+    method: "Live request for sudais-ai",
+    status: "ok",
+    note: "Returned real data (324 total contributions, current and longest streak). Custom dark/gold colours applied.",
+    url: "https://streak-stats.demolab.com/?user=sudais-ai&theme=dark&background=111111&border=FFD700",
+  },
+  {
+    target: "ghchart.rshah.org",
+    kind: "widget",
+    method: "Live request with colour param",
+    status: "ok",
+    note: "Contribution heatmap as SVG, tinted #FFD700, folded inside a collapsed <details> block.",
+    url: "https://ghchart.rshah.org/FFD700/sudais-ai",
+  },
+  {
+    target: "img.shields.io",
+    kind: "widget",
+    method: "Live request for the exact badge pattern",
+    status: "ok",
+    note: "All CTAs, chips and section buttons use static shields.io badges — an unknown logo degrades to “no logo” instead of breaking the image.",
+    url: "https://img.shields.io/badge/scikit--learn-core-1A1A1A?style=flat-square&logo=scikitlearn&logoColor=FFD700&labelColor=111111",
+  },
+  {
+    target: "skillicons.dev",
+    kind: "widget",
+    method: "Requested four candidate icon groups",
+    status: "warn",
+    note: "Languages, web/app and tooling groups resolve fine. The data group (numpy, pandas, matplotlib, sklearn, scipy) does not — those icons come back blank, so that row was rebuilt with shields.io chips.",
+    url: "https://skillicons.dev/icons?i=python,java,js,html,css,php&theme=dark",
+  },
+  {
+    target: "github-readme-stats.vercel.app",
+    kind: "widget",
+    method: "Live request",
+    status: "unused",
+    note: "Failed. The public instance is deprecated and rate-limited, so no stats card and no top-languages card is used anywhere.",
+  },
+  {
+    target: "github-profile-trophy.vercel.app",
+    kind: "widget",
+    method: "Live request",
+    status: "unused",
+    note: "Failed → trophies excluded, along with the “trophies for X followers” look that template READMEs lean on.",
+  },
+  {
+    target: "github-readme-activity-graph",
+    kind: "widget",
+    method: "Live request",
+    status: "unused",
+    note: "Failed → replaced by the ghchart heatmap, which is a real contribution graph rather than a smoothed chart.",
+  },
+  {
+    target: "komarev.com/ghpvc (profile views)",
+    kind: "widget",
+    method: "Live request",
+    status: "unused",
+    note: "Works but reads 0 today, and visitor counters are the most recognisable template tell there is.",
+  },
+  {
+    target: "followers badge",
+    kind: "widget",
+    method: "Live request",
+    status: "unused",
+    note: "Resolves to 0. Advertising a zero helps nobody, so it is out.",
+  },
+
+  // ——— claims ———
+  {
+    target: "TradeReady AI architecture description",
+    kind: "claim",
+    method: "Read prisma/schema.prisma + repo dev notes",
+    status: "ok",
+    note: "Every mechanism named in the README (chunk + embedding storage, FTS5, evidence rows with relevance score and content snapshot, ProcessingJob state machine, audit log, owner-scoped reads, /api/health) exists in the repository.",
+    url: "https://github.com/sudais-ai/TradeReadyAI",
+  },
+  {
+    target: "VindicAI (repo `vind`) capabilities",
+    kind: "claim",
+    method: "Read PHASE2_LIVE_TEST_REPORT.md",
+    status: "ok",
+    note: "Phrases copied from your own report, including the parts that limit the claim: mock email/password screens, providers deferred, no production deployment.",
+    url: "https://github.com/sudais-ai/vind/blob/main/PHASE2_LIVE_TEST_REPORT.md",
+  },
+  {
+    target: "Tool-Wear-Detection notebook",
+    kind: "claim",
+    method: "Repository file listing + language stats",
+    status: "ok",
+    note: "One 14.5 MB Jupyter notebook on CNC tool wear. Described as an analysis notebook; no accuracy figure is stated because none could be read from metadata.",
+    url: "https://github.com/sudais-ai/Tool-Wear-Detection",
+  },
+  {
+    target: "JARVIS-X",
+    kind: "claim",
+    method: "API size/language check on jarvis-git, jar-1, jaaaaaaaaaaaaar",
+    status: "warn",
+    note: "All three repos are empty placeholders (size 0, no language). The README keeps the project as stated direction and says plainly that the code is not published yet.",
+    url: "https://github.com/sudais-ai/jarvis-git",
+  },
+  {
+    target: "Spam Email Detector · Budget Tracker · Weather/Quote scraper · ML Portfolio",
+    kind: "claim",
+    method: "GitHub search: user:sudais-ai spam / weather OR budget",
+    status: "bad",
+    note: "0 results. No public repository to link, so no cards were invented — they appear as one honest “being cleaned up before publishing” row instead.",
+  },
+  {
+    target: "Java · PHP · MySQL · BeautifulSoup · OpenWeatherMap skills",
+    kind: "claim",
+    method: "Supplied by you; checked against public repos",
+    status: "warn",
+    note: "Accepted from your brief and kept in the stack, but there is no public repository evidence yet. Publish one small Java and one PHP/MySQL project to make them inspectable.",
+  },
+  {
+    target: "Next.js · React · Prisma · Drizzle · pnpm · Prettier",
+    kind: "claim",
+    method: "Your own repos",
+    status: "ok",
+    note: "Present in TradeReadyAI and vind, and framed as “applied / evidenced in a specific project”, never as core expertise.",
+  },
+  {
+    target: "Docker · AWS · Azure · GCP · Kubernetes · LangChain · LlamaIndex · FastAPI · Express · MongoDB · WebSockets · TF/PyTorch · Tailwind · Redis",
+    kind: "claim",
+    method: "Searched for repo evidence",
+    status: "unused",
+    note: "Excluded on purpose. The README states this exclusion out loud, which reads as judgement rather than as a gap.",
+  },
+  {
+    target: "“5+ years”, “200+ projects”, “50+ clients”, “98–99% accuracy”, “$50k earned”",
+    kind: "claim",
+    method: "Found on msudaisai.netlify.app during the audit",
+    status: "bad",
+    note: "None verifiable, and several are impossible for a 2024-entry BS student. Not imported into the README. Strongly recommend rewriting or removing them on the portfolio site — a recruiter opening both tabs will see the mismatch.",
+    url: "https://msudaisai.netlify.app",
+  },
+  {
+    target: "CGPA 3.12/4.0",
+    kind: "claim",
+    method: "Present in your previous README, absent from your verified brief",
+    status: "warn",
+    note: "Omitted from the new README. Add it back only if you want it public and it matches your transcript.",
+  },
+  {
+    target: "Coursera certificates",
+    kind: "claim",
+    method: "Official course pages fetched",
+    status: "warn",
+    note: "Course titles and providers verified (Machine Learning Specialization — DeepLearning.AI × Stanford; Python for Everybody — Michigan). Your completion is taken from your brief; no credential URL exists yet, so none is linked.",
+    url: "https://www.coursera.org/specializations/machine-learning-introduction",
+  },
+
+  // ——— workflow ———
+  {
+    target: "Platane/snk/svg-only@v3",
+    kind: "workflow",
+    method: "Release API check",
+    status: "ok",
+    note: "Latest snk release is v3.5.0; svg-only@v3 is the documented fast path. Inputs used: github_user_name + outputs (one file per line, options as query string).",
+  },
+  {
+    target: "crazy-max/ghaction-github-pages@v5",
+    kind: "workflow",
+    method: "Release API check",
+    status: "ok",
+    note: "v5.0.0 is current (Node 24 runtime). Publishes dist/ to the output branch only; keep_history on.",
+  },
+  {
+    target: "snake.yml YAML + triggers",
+    kind: "workflow",
+    method: "Manual syntax and schema review",
+    status: "ok",
+    note: "cron 15 3 * * *, workflow_dispatch, push on main; job-level contents:write; no secrets; concurrency guard; only this repo and its output branch are written.",
+  },
+  {
+    target: "snake image paths in README",
+    kind: "workflow",
+    method: "Path/branch cross-check",
+    status: "warn",
+    note: "They match the workflow output (raw.githubusercontent.com/sudais-ai/sudais-ai/output/…) but 404 until the first run creates the output branch. Trigger it from the Actions tab right after pushing.",
+  },
+  {
+    target: "GitHub profile sidebar (bio, website, X, hireable, pins)",
+    kind: "repo",
+    method: "Profile object read",
+    status: "warn",
+    note: "Website and Twitter fields are empty, hireable is off, bio still says “Bot Developer”, and pins are unset. These cannot be written from a README — exact steps are in the checklist.",
+  },
+  {
+    target: "Repo descriptions / topics / READMEs",
+    kind: "repo",
+    method: "API read across 29 source repos",
+    status: "bad",
+    note: "description: null and topics: [] on the featured repos; TradeReadyAI still ships the create-next-app README. Highest-value ten minutes available to you.",
+  },
+];
