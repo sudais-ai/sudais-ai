@@ -15,18 +15,13 @@
 
 <!-- HERO — text-first editorial profile header with lightweight animated lines -->
 
-<table>
-<tr>
-<td valign="middle" width="78%">
+<a href="https://lottie.host/embed/8f45f9b1-952d-4030-9f67-254bacc4fee2/J6Em46QTOg.lottie"><img align="right" src="https://raw.githubusercontent.com/sudais-ai/sudais-ai/main/assets/sudais-lottie.gif" width="250" alt="Animated Lottie AI robot visual — open the animation" /></a>
+
 <h1>Muhammad Sudais</h1>
 <strong>Applied AI Engineer · RAG Systems · Python</strong><br />
 <sub>BS Artificial Intelligence · Shifa Tameer-e-Millat University · 2024–2028 · Pakistan (GMT+5)</sub>
-</td>
-<td align="right" valign="middle" width="22%">
-<a href="https://lottie.host/embed/8f45f9b1-952d-4030-9f67-254bacc4fee2/J6Em46QTOg.lottie"><img src="https://raw.githubusercontent.com/sudais-ai/sudais-ai/main/assets/sudais-lottie.gif" width="180" alt="Animated Lottie AI robot visual — open the animation" /></a>
-</td>
-</tr>
-</table>
+
+<br clear="right" />
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Space+Mono&weight=700&size=27&duration=2600&pause=850&color=B28630&center=true&vCenter=true&width=820&height=55&lines=Build+the+signal+behind+the+answer.;Evidence-first+AI+systems.;Retrieval+%2B+verification+%2B+working+products." alt="Animated headline: Build the signal behind the answer" width="820" />
