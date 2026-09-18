@@ -1,0 +1,72 @@
+# =============================================================================
+# Contribution snake for the profile README
+# -----------------------------------------------------------------------------
+# Renders the GitHub contribution grid as an SVG "snake" animation and publishes
+# it to the `output` branch of this repository.
+#
+# Verified upstream state (checked 2026-09-18):
+#   • Platane/snk          -> v3.5.0 is the latest release; `svg-only@v3` is the
+#                             recommended SVG-only (faster) action.
+#   • crazy-max/ghaction-github-pages -> v5.0.0 is the latest major.
+#
+# Notes
+#   • No secrets are used. The built-in GITHUB_TOKEN is the only credential.
+#   • Job-level `permissions: contents: write` is enough; you do not need to
+#     change the repository-wide workflow permission defaults (and you should
+#     not grant anything beyond `contents: write`).
+#   • Only this repository and the `output` branch of this repository are touched.
+#   • The action reads the contribution graph of the *repository owner*, so the
+#     same file works unchanged if you ever move it.
+#   • Output is served from raw.githubusercontent.com (the `output` branch), so
+#     GitHub Pages publishing is NOT required.
+# =============================================================================
+
+name: generate contribution snake
+
+on:
+  schedule:
+    # 03:15 UTC every day — refreshes the graph once per day.
+    - cron: "15 3 * * *"
+
+  # Manual refresh: Actions tab -> "generate contribution snake" -> Run workflow
+  workflow_dispatch:
+
+  # Keep the animation in sync when this repo changes.
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+concurrency:
+  group: contribution-snake
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+
+    steps:
+      - name: generate github-contribution-grid-snake.svg
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            dist/github-contribution-grid-snake-gold.svg?color_snake=FFD700&color_dots=#1A1A1A,#2E2A18,#5C4F1C,#A88A22,#FFD700
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: publish dist/ to the output branch
+        uses: crazy-max/ghaction-github-pages@v5
+        with:
+          target_branch: output
+          build_dir: dist
+          keep_history: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
