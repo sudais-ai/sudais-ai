@@ -69,83 +69,85 @@
 
 ## About
 
-I am a BS Artificial Intelligence student who spends most of his time building, not collecting course links. My work centres on retrieval-augmented systems: documents go in, get parsed, chunked, embedded and indexed, and every generated answer keeps a pointer back to the passage it came from.
+I am a **BS Artificial Intelligence student** building practical AI systems in Python — with a focus on **RAG, document intelligence, LLM applications, and verification**.
 
-Concretely, that means:
+> **My principle:** useful AI should be grounded in evidence, transparent about its limits, and built to recover when things fail.
 
-- **Grounding beats fluency.** In TradeReady AI, an AI verdict on a requirement is stored as a row that links to a specific document chunk, with a relevance score and a content snapshot — so a user can read the source instead of trusting the model.
-- **Pipelines must admit failure.** Document processing runs as durable jobs with an explicit state machine (`SCHEDULED → RUNNING → COMPLETED / FAILED / CANCELLED`) and stale-lock recovery on restart, so a crashed worker never leaves a case stuck on "processing".
-- **Retrieval is more than embeddings.** The same project keeps a SQLite FTS5 index next to stored chunk embeddings (provider, model, dimensions, vector) so keyword and vector recall can be compared, and rebuilt with a maintenance script after migrations.
-- **Ownership is enforced server-side.** Every read path filters on the owner's user id, soft deletes keep history recoverable, and security-relevant actions go into an append-only audit log. There is no admin backdoor role.
-- **Written proof over screenshots.** I keep phase test reports in my repositories that state what passed, what is broken, and what I am deliberately *not* claiming yet.
+<p align="center">
+  <a href="https://github.com/sudais-ai/TradeReadyAI"><img src="https://img.shields.io/badge/Explore-TradeReady_AI-FFD700?style=for-the-badge&logo=github&logoColor=111111&labelColor=111111" alt="Explore TradeReady AI" /></a>
+  <a href="https://github.com/sudais-ai/vind"><img src="https://img.shields.io/badge/Explore-VindicAI-FFD700?style=for-the-badge&logo=github&logoColor=111111&labelColor=111111" alt="Explore VindicAI" /></a>
+  <a href="https://msudaisai.netlify.app"><img src="https://img.shields.io/badge/Visit-Portfolio-1A1A1A?style=for-the-badge&logo=netlify&logoColor=FFD700&labelColor=111111" alt="Visit portfolio" /></a>
+</p>
 
-I am early in my career and I would rather say so plainly: no production employment, no client-count or revenue claims, no enterprise deployments. What you can inspect here is code, schemas, evaluation structures and engineering notes.
+<details>
+<summary><strong>What I build</strong> · click to expand</summary>
+
+<br />
+
+| Focus | In practice |
+| :-- | :-- |
+| **Evidence-first RAG** | Answers linked to source passages, relevance scores, and content snapshots. |
+| **Reliable pipelines** | Durable processing jobs with explicit states, failure recovery, and maintenance scripts. |
+| **Hybrid retrieval** | Keyword search with SQLite FTS5 alongside vector embeddings. |
+| **Secure foundations** | Server-side ownership checks, soft deletes, append-only audit logs, and no admin backdoor. |
+| **Honest engineering** | Test reports that show what passed, what is incomplete, and what is not claimed. |
+
+</details>
 
 ## Selected work
 
-### 1 · TradeReady AI
+### TradeReady AI · evidence-backed trade-compliance copilot
 
-**Evidence-backed trade-compliance copilot.** Import shipment documents, build a requirements checklist, and get per-requirement assessments that cite the exact source passage.
+Import shipment documents, build a requirements checklist, and receive assessments that cite the exact source passage.
 
-- **Problem** — Checking whether a shipment is ready means reading a pile of PDFs against rules and proving what you read. It is repetitive, easy to miss, and hard to audit afterwards.
-- **Approach** — Per-case document ingestion (extract text → chunk → embed → index in FTS5), requirements with status tracking, an LLM assessment step that stores `confidence`, `modelProvider` and `modelName` next to each verdict, and evidence rows that tie each assessment back to a chunk.
-- **Stack** — Next.js (App Router) · TypeScript · Prisma · SQLite with an FTS5 index · per-chunk embedding storage · hand-written CSS
-- **Also in the repo** — session auth with email verification and lockout after failed logins, append-only audit log, `/api/health` liveness probe, soft deletes, composite indexes for the dashboard queries, a rebuild script for the full-text index.
-- **Status** — Active. Built in documented phases (the repository notes reference Phase 12 and Phase 13 work).
-- **Honest limits** — No live users, no regulatory certification, no autonomous filing, no claimed accuracy percentage.
+`Next.js` · `TypeScript` · `Prisma` · `SQLite FTS5` · embeddings · LLM evaluation
 
 <p>
-  <a href="https://github.com/sudais-ai/TradeReadyAI"><img src="https://img.shields.io/badge/SOURCE-TradeReadyAI-1A1A1A?style=flat-square&logo=github&logoColor=FFD700&labelColor=111111" alt="TradeReady AI source" /></a>
-  <a href="https://trade-ready-ai.vercel.app"><img src="https://img.shields.io/badge/LIVE_DEMO-trade--ready--ai.vercel.app-FFD700?style=flat-square&logo=vercel&logoColor=111111&labelColor=111111" alt="TradeReady AI live deployment" /></a>
+  <a href="https://github.com/sudais-ai/TradeReadyAI"><img src="https://img.shields.io/badge/VIEW-SOURCE-1A1A1A?style=flat-square&logo=github&logoColor=FFD700&labelColor=111111" alt="TradeReady AI source" /></a>
+  <a href="https://trade-ready-ai.vercel.app"><img src="https://img.shields.io/badge/OPEN-LIVE_DEMO-FFD700?style=flat-square&logo=vercel&logoColor=111111&labelColor=111111" alt="TradeReady AI live demo" /></a>
 </p>
 
-### 2 · VindicAI — repository `vind`
+<details>
+<summary><strong>How it works</strong></summary>
 
-**Research-and-case workspace where claims stay attached to their sources.** A multi-tenant foundation: organisations, workspaces, roles, cases, evidence, facts, claims, citations, drafts and audit trail.
+`extract → chunk → embed → index → evaluate → cite`
 
-- **Problem** — AI research tools produce text you cannot verify. This project starts from the data model: an assertion is only useful if it points at the evidence, the run that produced it, and the version it came from.
-- **Approach** — `Case → Evidence → Fact → Claim → Citation` and `ResearchRun → ResearchSource → PolicyVersion → AgentRun → Artifact → Draft` chains, provider-neutral embedding metadata, append-only audit helpers, and an authorisation catalogue of six roles across nine domains.
-- **Stack** — TypeScript · React · Drizzle ORM · managed MySQL/TiDB · OAuth sign-in · S3-compatible metadata references
-- **Status** — Foundation phase. Automated tests (7 files / 16 tests) and tenant-isolation checks are recorded in committed phase reports, which also list what is still mock-only — including the email/password screens, which are explicitly *not* live authentication.
-- **Honest limits** — No production deployment, no external email or agent execution wired up yet.
+Each verdict stores confidence, model metadata, and evidence connected to a document chunk. The repository also includes session security, audit logging, health checks, soft deletes, and stale-job recovery.
+
+</details>
+
+### VindicAI · research and case workspace
+
+A multi-tenant foundation where claims stay attached to evidence, citations, research runs, and audit history.
+
+`TypeScript` · `React` · `Drizzle ORM` · `MySQL/TiDB` · OAuth · S3-style references
 
 <p>
-  <a href="https://github.com/sudais-ai/vind"><img src="https://img.shields.io/badge/SOURCE-vind-1A1A1A?style=flat-square&logo=github&logoColor=FFD700&labelColor=111111" alt="VindicAI source" /></a>
-  <a href="https://github.com/sudais-ai/vind/blob/main/PHASE2_LIVE_TEST_REPORT.md"><img src="https://img.shields.io/badge/ENGINEERING_REPORT-Phase_2_live_test-1A1A1A?style=flat-square&logo=readthedocs&logoColor=FFD700&labelColor=111111" alt="VindicAI phase 2 test report" /></a>
+  <a href="https://github.com/sudais-ai/vind"><img src="https://img.shields.io/badge/VIEW-SOURCE-1A1A1A?style=flat-square&logo=github&logoColor=FFD700&labelColor=111111" alt="VindicAI source" /></a>
+  <a href="https://github.com/sudais-ai/vind/blob/main/PHASE2_LIVE_TEST_REPORT.md"><img src="https://img.shields.io/badge/READ-ENGINEERING_REPORT-FFD700?style=flat-square&logo=readthedocs&logoColor=111111&labelColor=111111" alt="VindicAI engineering report" /></a>
 </p>
 
-### 3 · Tool-Wear Detection
+<details>
+<summary><strong>Core model</strong></summary>
 
-**Supervised learning on CNC machine sensor data.** A notebook-first project: read the dataset, clean and explore it, engineer features, then train and compare models for tool-wear prediction.
+`Case → Evidence → Fact → Claim → Citation`
 
-- **Problem** — Replacing a worn cutting tool too early wastes money; too late risks a bad part. Sensor history makes the wear pattern learnable.
-- **Approach** — Data loading and cleaning, exploratory analysis, feature work, train/test split, model comparison and error inspection, all reproducible in one Jupyter notebook.
-- **Stack** — Python · pandas · NumPy · Matplotlib · scikit-learn · Jupyter
-- **Status** — Complete analysis notebook; needs a proper README and a written-up metrics table.
+Foundation phase: tenant-isolation checks and automated tests are documented in the repository. Email/password screens remain mock-only, and production deployment is not claimed.
+
+</details>
+
+### Tool-Wear Detection · applied machine learning notebook
+
+A reproducible CNC sensor-data workflow covering cleaning, feature engineering, model comparison, and error inspection.
+
+`Python` · `pandas` · `NumPy` · `Matplotlib` · `scikit-learn` · `Jupyter`
 
 <p>
-  <a href="https://github.com/sudais-ai/Tool-Wear-Detection"><img src="https://img.shields.io/badge/SOURCE-Tool--Wear--Detection-1A1A1A?style=flat-square&logo=github&logoColor=FFD700&labelColor=111111" alt="Tool wear detection notebook" /></a>
-  <a href="https://github.com/sudais-ai/Tool-Wear-Detection/blob/main/cnc-milling-machine-tool-wear-detection.ipynb"><img src="https://img.shields.io/badge/NOTEBOOK-open%20the%20analysis-1A1A1A?style=flat-square&logo=jupyter&logoColor=FFD700&labelColor=111111" alt="Notebook" /></a>
+  <a href="https://github.com/sudais-ai/Tool-Wear-Detection"><img src="https://img.shields.io/badge/VIEW-SOURCE-1A1A1A?style=flat-square&logo=github&logoColor=FFD700&labelColor=111111" alt="Tool-Wear Detection source" /></a>
+  <a href="https://github.com/sudais-ai/Tool-Wear-Detection/blob/main/cnc-milling-machine-tool-wear-detection.ipynb"><img src="https://img.shields.io/badge/OPEN-NOTEBOOK-FFD700?style=flat-square&logo=jupyter&logoColor=111111&labelColor=111111" alt="Open notebook" /></a>
 </p>
 
-### 4 · JARVIS-X
-
-**Desktop automation agent — in progress.** Planned around a loop of plan → execute → verify → recover, with persistent memory between sessions and explicit permission gates before anything touches the file system.
-
-- **Status** — Not yet presentable. The public `sudais-ai/jarvis-git` (and two sibling `jar*` repos) are currently empty placeholders, so there is no published code to point at. I am keeping this here as a real work item instead of describing capabilities I cannot show you.
-- **Next step** — Push the working code, add tests for the recovery path, then document what actually works.
-
-<p>
-  <a href="https://github.com/sudais-ai/jarvis-git"><img src="https://img.shields.io/badge/SOURCE-not_published_yet-1A1A1A?style=flat-square&logo=github&logoColor=8B8B8B&labelColor=111111" alt="JARVIS-X placeholder repository" /></a>
-</p>
-
-### Also in the workshop
-
-| Project | What it is | State |
-| :-- | :-- | :-- |
-| [University Management System](https://github.com/sudais-ai/UNIVERSITY-MANAGMENT-SYSTEM) | Python application with HTML/CSS screens; CRUD-style academic project | Needs a README and a rename (typo in repo name) |
-| [AI Video Summarizer](https://github.com/sudais-ai/ai-video-summarizer) | Python prototype for transcript → summary | Early, undocumented |
-| ML practice builds | Classification, regression, clustering, scraping and CSV-pipeline exercises (including a spam-email classifier, an expense tracker, and a weather/API + quote-scraping utility) | Being cleaned up before publishing; no public repo to link yet |
+> **Status:** Early-career portfolio, built in public. No unverified client, revenue, user-count, accuracy, or production-deployment claims.
 
 ## Tech stack
 
