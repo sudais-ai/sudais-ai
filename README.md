@@ -1,327 +1,435 @@
-<!--
-  ===========================================================================
-  Profile README  ·  github.com/sudais-ai/sudais-ai
-  ===========================================================================
-  Authoring rules used for this file (so future edits stay honest):
-    • Every factual claim comes from either (a) information the account owner
-      supplied, or (b) public evidence inside sudais-ai repositories
-      (code, Prisma/Drizzle schemas, committed test reports).
-    • No client counts, revenue, accuracy percentages, employers, job titles
-      or "years of experience" appear here, because none could be verified.
-    • Widget providers were checked before use. Dead public instances
-      (github-readme-stats, profile-trophy, activity-graph) are NOT used.
-  ===========================================================================
--->
+<div align="center">
 
-<!-- HERO — avatar, name, role, animated line, value proposition, CTAs -->
+<img src="https://github.com/sudais-ai.png?size=300" width="145" alt="Muhammad Sudais" />
 
-<p align="center">
+# Muhammad Sudais
+
+### AI / Machine Learning · Python · Applied AI
+
+<p>
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira%20Code&weight=600&size=20&duration=2800&pause=900&color=FFD700&center=true&vCenter=true&width=700&height=42&lines=Building+Practical+AI+Systems;Machine+Learning+%7C+RAG+%7C+LLM+Applications;AI+Agents+%7C+Automation+%7C+Python;Turning+Ideas+Into+Working+Software" alt="Animated typing headline" />
+</p>
+
+<p>
+  <b>BS Artificial Intelligence Student</b><br/>
+  Shifa Tameer-e-Millat University · Pakistan
+</p>
+
+<p>
   <a href="https://github.com/sudais-ai">
-    <img src="https://avatars.githubusercontent.com/u/203084465?s=256&v=4" width="128" alt="Portrait of Muhammad Sudais" />
+    <img src="https://img.shields.io/badge/GitHub-111111?style=for-the-badge&logo=github&logoColor=FFD700" alt="GitHub" />
+  </a>
+  <a href="https://www.linkedin.com/in/muhammad-sudais-/">
+    <img src="https://img.shields.io/badge/LinkedIn-111111?style=for-the-badge&logo=linkedin&logoColor=FFD700" alt="LinkedIn" />
+  </a>
+  <a href="mailto:sudaisoo72@gmail.com">
+    <img src="https://img.shields.io/badge/Email-111111?style=for-the-badge&logo=gmail&logoColor=FFD700" alt="Email" />
+  </a>
+  <a href="https://msudaisai.netlify.app">
+    <img src="https://img.shields.io/badge/Portfolio-111111?style=for-the-badge&logo=googlechrome&logoColor=FFD700" alt="Portfolio" />
   </a>
 </p>
 
-<h1 align="center">Muhammad Sudais</h1>
-
-<p align="center">
-  <strong>AI / Machine Learning · Python Developer</strong><br />
-  BS Artificial Intelligence · Shifa Tameer-e-Millat University (Sept 2024 – June 2028)<br />
-  Malakand Division, Khyber Pakhtunkhwa, Pakistan
+<p>
+  <a href="https://orcid.org/0009-0003-6992-1326">
+    <img src="https://img.shields.io/badge/ORCID-FFD700?style=for-the-badge&logo=orcid&logoColor=111111" alt="ORCID" />
+  </a>
+  <a href="https://www.freelancer.com/u/MuhammadSudaisAI">
+    <img src="https://img.shields.io/badge/Freelancer-FFD700?style=for-the-badge&logo=freelancer&logoColor=111111" alt="Freelancer" />
+  </a>
 </p>
 
-<p align="center">
-  <img
-    src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&duration=2600&pause=900&color=FFD700&width=470&height=42&lines=AI+%2F+Machine+Learning+Developer;I+build+practical+RAG+systems;LLM+apps+with+retrieval+%2B+verification;Turning+ML+ideas+into+working+products"
-    alt="Rotating headline: AI / Machine Learning Developer · I build practical RAG systems · LLM apps with retrieval and verification · Turning ML ideas into working products"
-    width="470"
-  />
-</p>
-
-<p align="center">
-  I build applied-AI systems where the answer ships with its evidence.<br />
-  Retrieval, document pipelines, and output verification — mostly in Python.
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/status-open_to_AI%2FML_internships-FFD700?style=flat-square&labelColor=111111" alt="Status: open to AI/ML internships" />
-  <img src="https://img.shields.io/badge/timezone-PK%20GMT%2B5-1A1A1A?style=flat-square&labelColor=111111" alt="Timezone: Pakistan, GMT+5" />
-  <img src="https://img.shields.io/badge/focus-RAG%20%C2%B7%20LLM%20apps%20%C2%B7%20ML-1A1A1A?style=flat-square&labelColor=111111" alt="Focus areas" />
-</p>
-
-<p align="center">
-  <a href="https://msudaisai.netlify.app"><img src="https://img.shields.io/badge/Portfolio-msudaisai.netlify.app-1A1A1A?style=for-the-badge&logo=netlify&logoColor=FFD700&labelColor=111111" alt="Portfolio website" /></a>
-  <a href="https://www.linkedin.com/in/muhammad-sudais-/"><img src="https://img.shields.io/badge/LinkedIn-Connect-1A1A1A?style=for-the-badge&logo=linkedin&logoColor=FFD700&labelColor=111111" alt="LinkedIn" /></a>
-  <a href="mailto:sudaisoo72@gmail.com"><img src="https://img.shields.io/badge/Email-sudaisoo72%40gmail.com-1A1A1A?style=for-the-badge&logo=gmail&logoColor=FFD700&labelColor=111111" alt="Email me" /></a>
-  <a href="https://github.com/sudais-ai"><img src="https://img.shields.io/badge/GitHub-sudais--ai-1A1A1A?style=for-the-badge&logo=github&logoColor=FFD700&labelColor=111111" alt="GitHub profile" /></a>
-  <a href="https://x.com/JGaHSzU3U641571"><img src="https://img.shields.io/badge/X-Follow-1A1A1A?style=for-the-badge&logo=x&logoColor=FFD700&labelColor=111111" alt="X / Twitter" /></a>
-</p>
-
-<p align="center">
-  <a href="https://www.fiverr.com/s/K3ea0jW"><img src="https://img.shields.io/badge/HIRE_ME-on_Fiverr-FFD700?style=for-the-badge&logo=fiverr&logoColor=111111&labelColor=111111" alt="Hire me on Fiverr" /></a>
-  <a href="https://www.upwork.com/freelancers/~0104d5606ec877e71d"><img src="https://img.shields.io/badge/HIRE_ME-via_Upwork-FFD700?style=for-the-badge&logo=upwork&logoColor=111111&labelColor=111111" alt="Hire me on Upwork" /></a>
-</p>
-
-<p align="center">
-  <a href="#about">About</a> · <a href="#selected-work">Selected work</a> · <a href="#tech-stack">Tech stack</a> · <a href="#skills-by-category">Skills</a> · <a href="#currently-learning">Learning</a> · <a href="#coursework--certificates">Certificates</a> · <a href="#github-analytics">Analytics</a> · <a href="#contact">Contact</a>
-</p>
+</div>
 
 ---
 
 ## About
 
-I am a BS Artificial Intelligence student who spends most of his time building, not collecting course links. My work centres on retrieval-augmented systems: documents go in, get parsed, chunked, embedded and indexed, and every generated answer keeps a pointer back to the passage it came from.
+I'm a **BS Artificial Intelligence student** focused on building practical software around machine learning and applied AI.
 
-Concretely, that means:
+My work spans from **classical ML pipelines** to **RAG systems, LLM-powered applications, semantic retrieval, AI agents, and desktop automation**.
 
-- **Grounding beats fluency.** In TradeReady AI, an AI verdict on a requirement is stored as a row that links to a specific document chunk, with a relevance score and a content snapshot — so a user can read the source instead of trusting the model.
-- **Pipelines must admit failure.** Document processing runs as durable jobs with an explicit state machine (`SCHEDULED → RUNNING → COMPLETED / FAILED / CANCELLED`) and stale-lock recovery on restart, so a crashed worker never leaves a case stuck on "processing".
-- **Retrieval is more than embeddings.** The same project keeps a SQLite FTS5 index next to stored chunk embeddings (provider, model, dimensions, vector) so keyword and vector recall can be compared, and rebuilt with a maintenance script after migrations.
-- **Ownership is enforced server-side.** Every read path filters on the owner's user id, soft deletes keep history recoverable, and security-relevant actions go into an append-only audit log. There is no admin backdoor role.
-- **Written proof over screenshots.** I keep phase test reports in my repositories that state what passed, what is broken, and what I am deliberately *not* claiming yet.
+I prefer taking an idea beyond a notebook:
 
-I am early in my career and I would rather say so plainly: no production employment, no client-count or revenue claims, no enterprise deployments. What you can inspect here is code, schemas, evaluation structures and engineering notes.
+**understand the problem → build the system → evaluate it → verify the result → improve it.**
 
-## Selected work
+My current projects include **TradeReady AI**, an AI-driven trade-compliance system focused on document processing, retrieval, evidence, and evaluation, and **JARVIS-X**, an intelligent desktop-automation agent exploring planning, execution, verification, recovery, memory, and permission-controlled actions.
 
-### 1 · TradeReady AI
+I'm currently looking for opportunities where I can contribute to **AI/ML engineering, Python development, applied AI, RAG/LLM systems, and intelligent automation**.
 
-**Evidence-backed trade-compliance copilot.** Import shipment documents, build a requirements checklist, and get per-requirement assessments that cite the exact source passage.
+---
 
-- **Problem** — Checking whether a shipment is ready means reading a pile of PDFs against rules and proving what you read. It is repetitive, easy to miss, and hard to audit afterwards.
-- **Approach** — Per-case document ingestion (extract text → chunk → embed → index in FTS5), requirements with status tracking, an LLM assessment step that stores `confidence`, `modelProvider` and `modelName` next to each verdict, and evidence rows that tie each assessment back to a chunk.
-- **Stack** — Next.js (App Router) · TypeScript · Prisma · SQLite with an FTS5 index · per-chunk embedding storage · hand-written CSS
-- **Also in the repo** — session auth with email verification and lockout after failed logins, append-only audit log, `/api/health` liveness probe, soft deletes, composite indexes for the dashboard queries, a rebuild script for the full-text index.
-- **Status** — Active. Built in documented phases (the repository notes reference Phase 12 and Phase 13 work).
-- **Honest limits** — No live users, no regulatory certification, no autonomous filing, no claimed accuracy percentage.
+## What I Build
+
+<table>
+<tr>
+
+<td width="50%" valign="top">
+
+### Machine Learning
+
+Building and evaluating practical ML pipelines involving:
+
+* Classification
+* Regression
+* Clustering
+* Feature engineering
+* Model evaluation
+* Text classification
+* Data preprocessing
+
+</td>
+
+<td width="50%" valign="top">
+
+### Applied AI
+
+Exploring systems involving:
+
+* Retrieval-Augmented Generation
+* Semantic search
+* LLM integration
+* AI agents
+* Document processing
+* Evidence-backed answers
+* Verification and evaluation
+
+</td>
+
+</tr>
+</table>
+
+---
+
+## Featured Work
+
+<table>
+<tr>
+
+<td width="50%" valign="top">
+
+### TradeReady AI
+
+AI system focused on **trade-compliance workflows**.
+
+Designed around document processing, semantic retrieval, requirement analysis, supporting evidence, and evaluation/verification.
+
+**Core ideas**
+
+`RAG` · `Semantic Search` · `LLM` · `Documents` · `Evaluation`
+
+<a href="https://github.com/search?q=user%3Asudais-ai+TradeReady&type=repositories">
+<img src="https://img.shields.io/badge/EXPLORE%20TRADEREADY-FFD700?style=for-the-badge&logo=github&logoColor=111111" alt="Explore TradeReady AI" />
+</a>
+
+</td>
+
+<td width="50%" valign="top">
+
+### JARVIS-X
+
+Intelligent **desktop-automation agent** exploring agentic workflows.
+
+The system is designed around a:
+
+**Plan → Execute → Verify → Recover**
+
+loop with persistent memory and permission-controlled actions.
+
+**Core ideas**
+
+`AI Agents` · `Automation` · `Planning` · `Verification`
+
+<a href="https://github.com/search?q=user%3Asudais-ai+JARVIS&type=repositories">
+<img src="https://img.shields.io/badge/EXPLORE%20JARVIS--X-FFD700?style=for-the-badge&logo=github&logoColor=111111" alt="Explore JARVIS-X" />
+</a>
+
+</td>
+
+</tr>
+
+<tr>
+
+<td width="50%" valign="top">
+
+### Spam Email Detector
+
+Supervised machine-learning project for email classification.
+
+Uses text preprocessing, TF-IDF representation, Scikit-learn, and model evaluation.
+
+**Core ideas**
+
+`Python` · `Scikit-learn` · `TF-IDF` · `Classification`
+
+<a href="https://github.com/search?q=user%3Asudais-ai+Spam&type=repositories">
+<img src="https://img.shields.io/badge/EXPLORE%20PROJECT-111111?style=for-the-badge&logo=github&logoColor=FFD700" alt="Explore Spam Email Detector" />
+</a>
+
+</td>
+
+<td width="50%" valign="top">
+
+### ML Portfolio
+
+Collection of machine-learning implementations and experiments covering core supervised and unsupervised learning workflows.
+
+**Core ideas**
+
+`Python` · `Scikit-learn` · `NumPy` · `Pandas` · `Jupyter`
+
+<a href="https://github.com/search?q=user%3Asudais-ai+ML+Portfolio&type=repositories">
+<img src="https://img.shields.io/badge/EXPLORE%20PROJECT-111111?style=for-the-badge&logo=github&logoColor=FFD700" alt="Explore ML Portfolio" />
+</a>
+
+</td>
+
+</tr>
+
+<tr>
+
+<td width="50%" valign="top">
+
+### Budget & Expense Tracker
+
+Python application focused on practical data handling and expense management.
+
+**Core ideas**
+
+`Python` · `Data Handling` · `Persistence` · `MySQL / CSV`
+
+<a href="https://github.com/search?q=user%3Asudais-ai+Budget&type=repositories">
+<img src="https://img.shields.io/badge/EXPLORE%20PROJECT-111111?style=for-the-badge&logo=github&logoColor=FFD700" alt="Explore Budget and Expense Tracker" />
+</a>
+
+</td>
+
+<td width="50%" valign="top">
+
+### Weather Tracker & Quote Scraper
+
+Python toolkit combining API consumption with web scraping and structured data handling.
+
+**Core ideas**
+
+`Python` · `OpenWeatherMap` · `BeautifulSoup` · `APIs`
+
+<a href="https://github.com/search?q=user%3Asudais-ai+Weather&type=repositories">
+<img src="https://img.shields.io/badge/EXPLORE%20PROJECT-111111?style=for-the-badge&logo=github&logoColor=FFD700" alt="Explore Weather Tracker" />
+</a>
+
+</td>
+
+</tr>
+</table>
+
+<div align="center">
+
+<a href="https://github.com/sudais-ai?tab=repositories">
+<img src="https://img.shields.io/badge/VIEW%20ALL%20REPOSITORIES-FFD700?style=for-the-badge&logo=github&logoColor=111111" alt="View all repositories" />
+</a>
+
+</div>
+
+---
+
+## Tech Stack
+
+### Languages
 
 <p>
-  <a href="https://github.com/sudais-ai/TradeReadyAI"><img src="https://img.shields.io/badge/SOURCE-TradeReadyAI-1A1A1A?style=flat-square&logo=github&logoColor=FFD700&labelColor=111111" alt="TradeReady AI source" /></a>
-  <a href="https://trade-ready-ai.vercel.app"><img src="https://img.shields.io/badge/LIVE_DEMO-trade--ready--ai.vercel.app-FFD700?style=flat-square&logo=vercel&logoColor=111111&labelColor=111111" alt="TradeReady AI live deployment" /></a>
+<img src="https://img.shields.io/badge/Python-111111?style=flat-square&logo=python&logoColor=FFD700" alt="Python" />
+<img src="https://img.shields.io/badge/Java-111111?style=flat-square&logo=openjdk&logoColor=FFD700" alt="Java" />
+<img src="https://img.shields.io/badge/JavaScript-111111?style=flat-square&logo=javascript&logoColor=FFD700" alt="JavaScript" />
+<img src="https://img.shields.io/badge/SQL-111111?style=flat-square&logo=mysql&logoColor=FFD700" alt="SQL" />
+<img src="https://img.shields.io/badge/HTML5-111111?style=flat-square&logo=html5&logoColor=FFD700" alt="HTML5" />
+<img src="https://img.shields.io/badge/CSS3-111111?style=flat-square&logo=css3&logoColor=FFD700" alt="CSS3" />
+<img src="https://img.shields.io/badge/PHP-111111?style=flat-square&logo=php&logoColor=FFD700" alt="PHP" />
 </p>
 
-### 2 · VindicAI — repository `vind`
-
-**Research-and-case workspace where claims stay attached to their sources.** A multi-tenant foundation: organisations, workspaces, roles, cases, evidence, facts, claims, citations, drafts and audit trail.
-
-- **Problem** — AI research tools produce text you cannot verify. This project starts from the data model: an assertion is only useful if it points at the evidence, the run that produced it, and the version it came from.
-- **Approach** — `Case → Evidence → Fact → Claim → Citation` and `ResearchRun → ResearchSource → PolicyVersion → AgentRun → Artifact → Draft` chains, provider-neutral embedding metadata, append-only audit helpers, and an authorisation catalogue of six roles across nine domains.
-- **Stack** — TypeScript · React · Drizzle ORM · managed MySQL/TiDB · OAuth sign-in · S3-compatible metadata references
-- **Status** — Foundation phase. Automated tests (7 files / 16 tests) and tenant-isolation checks are recorded in committed phase reports, which also list what is still mock-only — including the email/password screens, which are explicitly *not* live authentication.
-- **Honest limits** — No production deployment, no external email or agent execution wired up yet.
+### AI / Machine Learning
 
 <p>
-  <a href="https://github.com/sudais-ai/vind"><img src="https://img.shields.io/badge/SOURCE-vind-1A1A1A?style=flat-square&logo=github&logoColor=FFD700&labelColor=111111" alt="VindicAI source" /></a>
-  <a href="https://github.com/sudais-ai/vind/blob/main/PHASE2_LIVE_TEST_REPORT.md"><img src="https://img.shields.io/badge/ENGINEERING_REPORT-Phase_2_live_test-1A1A1A?style=flat-square&logo=readthedocs&logoColor=FFD700&labelColor=111111" alt="VindicAI phase 2 test report" /></a>
+<img src="https://img.shields.io/badge/Scikit--learn-111111?style=flat-square&logo=scikitlearn&logoColor=FFD700" alt="Scikit-learn" />
+<img src="https://img.shields.io/badge/Classification-111111?style=flat-square" alt="Classification" />
+<img src="https://img.shields.io/badge/Regression-111111?style=flat-square" alt="Regression" />
+<img src="https://img.shields.io/badge/Clustering-111111?style=flat-square" alt="Clustering" />
+<img src="https://img.shields.io/badge/Feature%20Engineering-111111?style=flat-square" alt="Feature Engineering" />
+<img src="https://img.shields.io/badge/Model%20Evaluation-111111?style=flat-square" alt="Model Evaluation" />
 </p>
 
-### 3 · Tool-Wear Detection
-
-**Supervised learning on CNC machine sensor data.** A notebook-first project: read the dataset, clean and explore it, engineer features, then train and compare models for tool-wear prediction.
-
-- **Problem** — Replacing a worn cutting tool too early wastes money; too late risks a bad part. Sensor history makes the wear pattern learnable.
-- **Approach** — Data loading and cleaning, exploratory analysis, feature work, train/test split, model comparison and error inspection, all reproducible in one Jupyter notebook.
-- **Stack** — Python · pandas · NumPy · Matplotlib · scikit-learn · Jupyter
-- **Status** — Complete analysis notebook; needs a proper README and a written-up metrics table.
+### AI Engineering
 
 <p>
-  <a href="https://github.com/sudais-ai/Tool-Wear-Detection"><img src="https://img.shields.io/badge/SOURCE-Tool--Wear--Detection-1A1A1A?style=flat-square&logo=github&logoColor=FFD700&labelColor=111111" alt="Tool wear detection notebook" /></a>
-  <a href="https://github.com/sudais-ai/Tool-Wear-Detection/blob/main/cnc-milling-machine-tool-wear-detection.ipynb"><img src="https://img.shields.io/badge/NOTEBOOK-open%20the%20analysis-1A1A1A?style=flat-square&logo=jupyter&logoColor=FFD700&labelColor=111111" alt="Notebook" /></a>
+<img src="https://img.shields.io/badge/RAG-111111?style=flat-square" alt="RAG" />
+<img src="https://img.shields.io/badge/LLM%20Integration-111111?style=flat-square" alt="LLM Integration" />
+<img src="https://img.shields.io/badge/AI%20Agents-111111?style=flat-square" alt="AI Agents" />
+<img src="https://img.shields.io/badge/Semantic%20Search-111111?style=flat-square" alt="Semantic Search" />
+<img src="https://img.shields.io/badge/Retrieval%20Systems-111111?style=flat-square" alt="Retrieval Systems" />
+<img src="https://img.shields.io/badge/Document%20Processing-111111?style=flat-square" alt="Document Processing" />
+<img src="https://img.shields.io/badge/AI%20Evaluation-111111?style=flat-square" alt="AI Evaluation" />
+<img src="https://img.shields.io/badge/Automation-111111?style=flat-square" alt="Automation" />
 </p>
 
-### 4 · JARVIS-X
-
-**Desktop automation agent — in progress.** Planned around a loop of plan → execute → verify → recover, with persistent memory between sessions and explicit permission gates before anything touches the file system.
-
-- **Status** — Not yet presentable. The public `sudais-ai/jarvis-git` (and two sibling `jar*` repos) are currently empty placeholders, so there is no published code to point at. I am keeping this here as a real work item instead of describing capabilities I cannot show you.
-- **Next step** — Push the working code, add tests for the recovery path, then document what actually works.
+### Data & Development Tools
 
 <p>
-  <a href="https://github.com/sudais-ai/jarvis-git"><img src="https://img.shields.io/badge/SOURCE-not_published_yet-1A1A1A?style=flat-square&logo=github&logoColor=8B8B8B&labelColor=111111" alt="JARVIS-X placeholder repository" /></a>
-</p>
-
-### Also in the workshop
-
-| Project | What it is | State |
-| :-- | :-- | :-- |
-| [University Management System](https://github.com/sudais-ai/UNIVERSITY-MANAGMENT-SYSTEM) | Python application with HTML/CSS screens; CRUD-style academic project | Needs a README and a rename (typo in repo name) |
-| [AI Video Summarizer](https://github.com/sudais-ai/ai-video-summarizer) | Python prototype for transcript → summary | Early, undocumented |
-| ML practice builds | Classification, regression, clustering, scraping and CSV-pipeline exercises (including a spam-email classifier, an expense tracker, and a weather/API + quote-scraping utility) | Being cleaned up before publishing; no public repo to link yet |
-
-## Tech stack
-
-`core` = used in work of mine you can inspect · `applied` = used inside a specific project of mine · `learning` = current study, not professional expertise
-
-**LANGUAGES**
-
-<p>
-  <img src="https://skillicons.dev/icons?i=python,java,js,html,css,php&theme=dark" alt="Python, Java, JavaScript, HTML, CSS, PHP" />
-</p>
-
-**AI / MACHINE LEARNING**
-
-<p>
-  <img src="https://img.shields.io/badge/scikit--learn-core-1A1A1A?style=flat-square&logo=scikitlearn&logoColor=FFD700&labelColor=111111" alt="scikit-learn" />
-  <img src="https://img.shields.io/badge/NumPy-core-1A1A1A?style=flat-square&logo=numpy&logoColor=FFD700&labelColor=111111" alt="NumPy" />
-  <img src="https://img.shields.io/badge/Pandas-core-1A1A1A?style=flat-square&logo=pandas&logoColor=FFD700&labelColor=111111" alt="Pandas" />
-  <img src="https://img.shields.io/badge/Matplotlib-core-1A1A1A?style=flat-square&logo=matplotlib&logoColor=FFD700&labelColor=111111" alt="Matplotlib" />
-  <img src="https://img.shields.io/badge/Jupyter-core-1A1A1A?style=flat-square&logo=jupyter&logoColor=FFD700&labelColor=111111" alt="Jupyter" />
-  <img src="https://img.shields.io/badge/Google_Colab-core-1A1A1A?style=flat-square&logo=googlecolab&logoColor=FFD700&labelColor=111111" alt="Google Colab" />
-  <img src="https://img.shields.io/badge/classification_%26_regression-core-1A1A1A?style=flat-square&labelColor=111111" alt="Classification and regression" />
-  <img src="https://img.shields.io/badge/clustering-core-1A1A1A?style=flat-square&labelColor=111111" alt="Clustering" />
-  <img src="https://img.shields.io/badge/feature_engineering-core-1A1A1A?style=flat-square&labelColor=111111" alt="Feature engineering" />
-  <img src="https://img.shields.io/badge/model_evaluation-core-1A1A1A?style=flat-square&labelColor=111111" alt="Model evaluation" />
-  <img src="https://img.shields.io/badge/neural_network_foundations-core-1A1A1A?style=flat-square&labelColor=111111" alt="Neural network fundamentals" />
-</p>
-
-**AI ENGINEERING — main focus**
-
-<p>
-  <img src="https://img.shields.io/badge/RAG-hybrid_retrieval-FFD700?style=flat-square&labelColor=111111" alt="RAG with hybrid retrieval" />
-  <img src="https://img.shields.io/badge/LLM_integration-confidence_%26_model_tracking-FFD700?style=flat-square&labelColor=111111" alt="LLM integration" />
-  <img src="https://img.shields.io/badge/AI_agents-plan_%E2%86%92_execute_%E2%86%92_verify-FFD700?style=flat-square&labelColor=111111" alt="AI agents" />
-  <img src="https://img.shields.io/badge/semantic_search-vectors_%2B_keyword-FFD700?style=flat-square&labelColor=111111" alt="Semantic search" />
-  <img src="https://img.shields.io/badge/document_processing-extract_%E2%86%92_chunk_%E2%86%92_index-FFD700?style=flat-square&labelColor=111111" alt="Document processing" />
-  <img src="https://img.shields.io/badge/retrieval-FTS5_%2B_vectors-FFD700?style=flat-square&labelColor=111111" alt="Retrieval" />
-  <img src="https://img.shields.io/badge/evidence_grounding-cited_chunks-FFD700?style=flat-square&labelColor=111111" alt="Evidence grounding" />
-  <img src="https://img.shields.io/badge/AI_evaluation-output_verification-FFD700?style=flat-square&labelColor=111111" alt="AI evaluation and verification" />
-</p>
-
-**DATA & DATABASES**
-
-<p>
-  <img src="https://img.shields.io/badge/SQL-core-1A1A1A?style=flat-square&logo=mysql&logoColor=FFD700&labelColor=111111" alt="SQL" />
-  <img src="https://img.shields.io/badge/MySQL-applied-1A1A1A?style=flat-square&logo=mysql&logoColor=FFD700&labelColor=111111" alt="MySQL" />
-  <img src="https://img.shields.io/badge/SQLite_%2B_FTS5-applied-1A1A1A?style=flat-square&logo=sqlite&logoColor=FFD700&labelColor=111111" alt="SQLite with FTS5" />
-  <img src="https://img.shields.io/badge/CSV_%26_JSON_pipelines-core-1A1A1A?style=flat-square&labelColor=111111" alt="CSV and JSON pipelines" />
-  <img src="https://img.shields.io/badge/schema_%26_index_design-applied-1A1A1A?style=flat-square&labelColor=111111" alt="Schema and index design" />
-</p>
-
-**WEB / APP ENGINEERING — evidenced in my repos**
-
-<p>
-  <img src="https://skillicons.dev/icons?i=ts,react,nextjs,prisma,nodejs,npm&theme=dark" alt="TypeScript, React, Next.js, Prisma, Node.js, npm" />
-  <img src="https://img.shields.io/badge/Drizzle_ORM-applied-1A1A1A?style=flat-square&labelColor=111111" alt="Drizzle ORM" />
-  <img src="https://img.shields.io/badge/BeautifulSoup-scraping-1A1A1A?style=flat-square&labelColor=111111" alt="BeautifulSoup" />
-  <img src="https://img.shields.io/badge/OpenWeatherMap_API-applied-1A1A1A?style=flat-square&labelColor=111111" alt="OpenWeatherMap API" />
-</p>
-
-**TOOLING & PLATFORMS**
-
-<p>
-  <img src="https://skillicons.dev/icons?i=git,github,vscode,npm&theme=dark" alt="Git, GitHub, VS Code, npm" />
-  <img src="https://img.shields.io/badge/GitHub_Actions-this_snake_workflow-1A1A1A?style=flat-square&logo=githubactions&logoColor=FFD700&labelColor=111111" alt="GitHub Actions" />
-  <img src="https://img.shields.io/badge/Prettier-applied-1A1A1A?style=flat-square&logo=prettier&logoColor=FFD700&labelColor=111111" alt="Prettier" />
-  <img src="https://img.shields.io/badge/pnpm-applied-1A1A1A?style=flat-square&logo=pnpm&logoColor=FFD700&labelColor=111111" alt="pnpm" />
-  <img src="https://img.shields.io/badge/Vercel-deployment-1A1A1A?style=flat-square&logo=vercel&logoColor=FFD700&labelColor=111111" alt="Vercel" />
-  <img src="https://img.shields.io/badge/Netlify-portfolio_host-1A1A1A?style=flat-square&logo=netlify&logoColor=FFD700&labelColor=111111" alt="Netlify" />
-  <img src="https://img.shields.io/badge/Windows-dev_environment-1A1A1A?style=flat-square&logo=windows&logoColor=FFD700&labelColor=111111" alt="Windows development environment" />
-</p>
-
-<p align="center">
-  <em>Not on this list on purpose: Docker, Kubernetes, AWS/Azure/GCP, LangChain, LlamaIndex, FastAPI, Express, MongoDB, WebSockets, TensorFlow/PyTorch at production level. I have not built shipped, inspectable work with them — so they stay off the résumé until they are earned.</em>
-</p>
-
-## Skills by category
-
-Different question from the stack list above: not *what is installed*, but *what I can be trusted to deliver*.
-
-- **AI / ML** — Tabular modelling end to end: cleaning, feature engineering, train/test discipline, comparing models, reading errors instead of only the score. Notebook → documented script.
-- **Python / data** — `pandas`/`NumPy` pipelines, CSV and JSON ingestion, scraping with BeautifulSoup, third-party REST APIs, small CLI utilities.
-- **RAG / LLM systems** — Chunking strategies, embedding storage, hybrid retrieval (keyword + vector), evidence-cited generation, storing model/confidence metadata so outputs can be audited and compared.
-- **Software development** — Git-based workflow, typed TypeScript in application code, schema and index design, soft deletes, ownership-scoped queries, health endpoints, migration maintenance scripts.
-- **Databases** — MySQL and SQLite: relational modelling, joins and aggregation, query patterns that avoid redundant sort steps.
-- **Developer tooling** — GitHub Actions (this profile's daily build), VS Code, Jupyter/Colab, Prettier, npm/pnpm toolchains.
-- **Verification habits** — Written phase test reports that separate "tested", "partially tested" and "not claimed" — you can read them in `vind`.
-
-## Currently learning
-
-Ordered by how much of my week they get. Treat this list as study, not expertise.
-
-- **Advanced RAG** — chunk overlap and windowing, hybrid ranking, and knowing when a reranker is worth the latency
-- **Retrieval evaluation** — measuring whether the right passage was found, not only whether the answer looked plausible
-- **LLM output verification** — structured verdicts, confidence reporting, citation checking, regression tests for prompts
-- **AI agent reliability** — retry and recovery semantics, tool-permission gates, memory that can be inspected
-- **Applied ML depth** — gradient boosting, calibration, class imbalance handling, leakage hunting
-- **Production-oriented habits** — logging, migrations under real constraints, deployment configuration on Vercel
-
-**Deliberately not claiming** — cloud platform certifications, container orchestration, or "AI research" work. Those are future goals, not present skills.
-
-## Open to
-
-- AI / ML internships and applied-AI assistant research work
-- Python development: automation, data pipelines, scraping, small services
-- RAG and LLM-powered application builds (design → implementation → evaluation)
-- Turning a trained notebook into a documented, runnable project
-- Open-source collaboration on retrieval, evaluation and agent tooling
-- Freelance briefs where an AI feature has to be verifiable, not just demo-able
-
-## Coursework & certificates
-
-- **[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)** — DeepLearning.AI × Stanford Online · three courses: *Supervised Machine Learning: Regression and Classification*, *Advanced Learning Algorithms*, *Unsupervised Learning, Recommenders, and Reinforcement Learning*
-- **[Programming for Everybody (Getting Started with Python)](https://www.coursera.org/specializations/python)** — University of Michigan, Python for Everybody Specialization
-- **BS Artificial Intelligence** — Shifa Tameer-e-Millat University, Sept 2024 → June 2028 (coursework in programming, mathematics for ML, and AI systems)
-
-## GitHub analytics
-
-Live widgets, not hand-typed numbers. Contribution counts come from GitHub's public activity for `sudais-ai`.
-
-<p align="center">
-  <a href="https://streak-stats.demolab.com/?user=sudais-ai">
-    <img src="https://streak-stats.demolab.com/?user=sudais-ai&theme=dark&background=111111&border=FFD700&stroke=FFFFFF&ring=FFD700&fire=FFD700&currStreakNum=FFFFFF&sideNums=FFD700&currStreakLabel=FFD700&sideLabels=FFFFFF&dates=8B8B8B&border_radius=12" width="400" alt="GitHub contribution streak and totals for sudais-ai" />
-  </a>
-</p>
-
-A large share of my public history is old WhatsApp-bot experimentation and forks from other authors' projects. That is honest history, not a portfolio — so the professional claims in this README are drawn only from the original repositories listed under [Selected work](#selected-work).
-
-<details>
-<summary><strong>Contribution heatmap</strong> (click to expand)</summary>
-
-<p align="center">
-  <img src="https://ghchart.rshah.org/FFD700/sudais-ai" width="860" alt="Muhammad Sudais's GitHub contribution heatmap" />
-</p>
-
-</details>
-
-<details>
-<summary><strong>Snake</strong> — nightly build of my contribution grid (GitHub Actions)</summary>
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sudais-ai/sudais-ai/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sudais-ai/sudais-ai/output/github-contribution-grid-snake.svg" />
-    <img alt="GitHub contribution grid snake animation" src="https://raw.githubusercontent.com/sudais-ai/sudais-ai/output/github-contribution-grid-snake.svg" width="860" />
-  </picture>
-</p>
-
-Generated by [`.github/workflows/snake.yml`](./blob/main/.github/workflows/snake.yml) using `Platane/snk/svg-only@v3`, published to the `output` branch. A gold-palette variant is also produced at `github-contribution-grid-snake-gold.svg`.
-
-</details>
-
-## Contact
-
-<p align="center">
-  <a href="mailto:sudaisoo72@gmail.com"><img src="https://img.shields.io/badge/Email-sudaisoo72%40gmail.com-1A1A1A?style=for-the-badge&logo=gmail&logoColor=FFD700&labelColor=111111" alt="Email" /></a>
-  <a href="https://www.linkedin.com/in/muhammad-sudais-/"><img src="https://img.shields.io/badge/LinkedIn-muhammad--sudais---1A1A1A?style=for-the-badge&logo=linkedin&logoColor=FFD700&labelColor=111111" alt="LinkedIn" /></a>
-  <a href="https://msudaisai.netlify.app"><img src="https://img.shields.io/badge/Portfolio-msudaisai.netlify.app-1A1A1A?style=for-the-badge&logo=netlify&logoColor=FFD700&labelColor=111111" alt="Portfolio" /></a>
-  <a href="https://x.com/JGaHSzU3U641571"><img src="https://img.shields.io/badge/X-JGaHSzU3U641571-1A1A1A?style=for-the-badge&logo=x&logoColor=FFD700&labelColor=111111" alt="X" /></a>
-</p>
-
-<p align="center">
-  <a href="https://www.fiverr.com/s/K3ea0jW"><img src="https://img.shields.io/badge/HIRE_ME-on_Fiverr-FFD700?style=for-the-badge&logo=fiverr&logoColor=111111&labelColor=111111" alt="Hire on Fiverr" /></a>
-  <a href="https://www.upwork.com/freelancers/~0104d5606ec877e71d"><img src="https://img.shields.io/badge/HIRE_ME-via_Upwork-FFD700?style=for-the-badge&logo=upwork&logoColor=111111&labelColor=111111" alt="Hire via Upwork" /></a>
-</p>
-
-<p align="center">
-  Best first message: one paragraph on the problem, the data you have, and what "verified" should mean for the output.
+<img src="https://img.shields.io/badge/NumPy-111111?style=flat-square&logo=numpy&logoColor=FFD700" alt="NumPy" />
+<img src="https://img.shields.io/badge/Pandas-111111?style=flat-square&logo=pandas&logoColor=FFD700" alt="Pandas" />
+<img src="https://img.shields.io/badge/Matplotlib-111111?style=flat-square&logo=matplotlib&logoColor=FFD700" alt="Matplotlib" />
+<img src="https://img.shields.io/badge/BeautifulSoup-111111?style=flat-square" alt="BeautifulSoup" />
+<img src="https://img.shields.io/badge/MySQL-111111?style=flat-square&logo=mysql&logoColor=FFD700" alt="MySQL" />
+<img src="https://img.shields.io/badge/Jupyter-111111?style=flat-square&logo=jupyter&logoColor=FFD700" alt="Jupyter" />
+<img src="https://img.shields.io/badge/Google%20Colab-111111?style=flat-square&logo=googlecolab&logoColor=FFD700" alt="Google Colab" />
+<img src="https://img.shields.io/badge/Git-111111?style=flat-square&logo=git&logoColor=FFD700" alt="Git" />
+<img src="https://img.shields.io/badge/GitHub-111111?style=flat-square&logo=github&logoColor=FFD700" alt="GitHub" />
+<img src="https://img.shields.io/badge/VS%20Code-111111?style=flat-square&logo=visualstudiocode&logoColor=FFD700" alt="VS Code" />
 </p>
 
 ---
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=17&duration=3400&pause=1200&color=FFD700&width=430&height=32&lines=Thanks+for+visiting.+Let%27s+build+something+useful.;Open+to+AI%2FML%2C+Python+and+software+engineering+work." alt="Thanks for visiting — open to AI/ML, Python and software engineering work." />
-</p>
+## Current Focus
 
-<p align="center">
-  <sub>Muhammad Sudais · AI / Machine Learning · Python · Malakand Division, KP, Pakistan · GMT+5<br />
-  Links and claims last audited 18 Sep 2026.</sub>
-</p>
+<table>
+<tr>
+
+<td width="50%" valign="top">
+
+### Building
+
+**TradeReady AI**
+
+Document-driven AI system for trade-compliance workflows, retrieval, evidence, and evaluation.
+
+**JARVIS-X**
+
+Desktop AI agent focused on planning, execution, verification, recovery, memory, and controlled automation.
+
+</td>
+
+<td width="50%" valign="top">
+
+### Learning
+
+* Advanced RAG architectures
+* Retrieval evaluation
+* LLM system design
+* Multi-step AI agents
+* AI reliability and verification
+* Production-oriented AI engineering
+
+</td>
+
+</tr>
+</table>
+
+---
+
+## Engineering Approach
+
+<div align="center">
+
+### Build → Measure → Verify → Improve
+
+</div>
+
+I care about more than getting a model to run.
+
+I try to understand:
+
+* what problem the system is solving
+* what the model or retrieval layer is actually doing
+* how success should be measured
+* how outputs can be verified
+* what happens when the system fails
+* how the implementation can be improved
+
+That mindset drives both my ML projects and my larger AI-agent work.
+
+---
+
+## Certifications
+
+| Course                                                                                                                                                   | Provider                          |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------- |
+| [Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)                                                | DeepLearning.AI · Stanford Online |
+| [Supervised Machine Learning: Regression and Classification](https://www.coursera.org/learn/machine-learning)                                            | DeepLearning.AI · Stanford Online |
+| [Advanced Learning Algorithms](https://www.coursera.org/learn/advanced-learning-algorithms)                                                              | DeepLearning.AI · Stanford Online |
+| [Unsupervised Learning, Recommenders & Reinforcement Learning](https://www.coursera.org/learn/unsupervised-learning-recommenders-reinforcement-learning) | DeepLearning.AI · Stanford Online |
+| [Programming for Everybody: Getting Started with Python](https://www.coursera.org/learn/python)                                                          | University of Michigan            |
+
+---
+
+## GitHub Analytics
+
+<div align="center">
+
+<a href="https://github.com/sudais-ai">
+<img src="./profile/stats.svg" width="48%" alt="GitHub statistics" />
+</a>
+
+<a href="https://github.com/sudais-ai">
+<img src="./profile/top-langs.svg" width="42%" alt="Top programming languages" />
+</a>
+
+</div>
+
+<br/>
+
+<div align="center">
+
+<a href="https://github.com/sudais-ai?tab=repositories">
+<img src="https://img.shields.io/badge/ACTIVITY-FFD700?style=for-the-badge&logo=github&logoColor=111111" alt="GitHub activity" />
+</a>
+
+</div>
+
+---
+
+## Contribution Activity
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./profile/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./profile/github-snake.svg" />
+  <img src="./profile/github-snake.svg" width="100%" alt="GitHub contribution snake animation" />
+</picture>
+
+</div>
+
+---
+
+## Connect
+
+<div align="center">
+
+<a href="https://msudaisai.netlify.app">
+<img src="https://img.shields.io/badge/PORTFOLIO-FFD700?style=for-the-badge&logo=googlechrome&logoColor=111111" alt="Portfolio" />
+</a>
+
+<a href="https://www.linkedin.com/in/muhammad-sudais-/">
+<img src="https://img.shields.io/badge/LINKEDIN-111111?style=for-the-badge&logo=linkedin&logoColor=FFD700" alt="LinkedIn" />
+</a>
+
+<a href="mailto:sudaisoo72@gmail.com">
+<img src="https://img.shields.io/badge/EMAIL-111111?style=for-the-badge&logo=gmail&logoColor=FFD700" alt="Email" />
+</a>
+
+<a href="https://github.com/sudais-ai">
+<img src="https://img.shields.io/badge/GITHUB-111111?style=for-the-badge&logo=github&logoColor=FFD700" alt="GitHub" />
+</a>
+
+</div>
+
+<br/>
+
+<div align="center">
+
+<img src="https://readme-typing-svg.demolab.com/?font=Fira%20Code&size=15&duration=3500&pause=1800&color=8B949E&center=true&vCenter=true&width=620&height=32&lines=Building+useful+systems%2C+one+project+at+a+time.;Learning+deeply.+Building+practically.;AI+%7C+ML+%7C+Python+%7C+RAG+%7C+Agents" alt="Animated closing line" />
+
+<br/><br/>
+
+<img src="https://komarev.com/ghpvc/?username=sudais-ai&style=flat-square&color=FFD700&label=Profile%20Views&labelColor=111111" alt="Profile views" />
+
+</div>
