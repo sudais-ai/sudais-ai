@@ -225,43 +225,88 @@ A reproducible CNC sensor-data workflow covering cleaning, feature engineering, 
 
 ## Skills by category
 
-Different question from the stack list above: not *what is installed*, but *what I can be trusted to deliver*.
+> **What I can build and deliver today** — not just tools I have installed.
 
-- **AI / ML** — Tabular modelling end to end: cleaning, feature engineering, train/test discipline, comparing models, reading errors instead of only the score. Notebook → documented script.
-- **Python / data** — `pandas`/`NumPy` pipelines, CSV and JSON ingestion, scraping with BeautifulSoup, third-party REST APIs, small CLI utilities.
-- **RAG / LLM systems** — Chunking strategies, embedding storage, hybrid retrieval (keyword + vector), evidence-cited generation, storing model/confidence metadata so outputs can be audited and compared.
-- **Software development** — Git-based workflow, typed TypeScript in application code, schema and index design, soft deletes, ownership-scoped queries, health endpoints, migration maintenance scripts.
-- **Databases** — MySQL and SQLite: relational modelling, joins and aggregation, query patterns that avoid redundant sort steps.
-- **Developer tooling** — GitHub Actions (this profile's daily build), VS Code, Jupyter/Colab, Prettier, npm/pnpm toolchains.
-- **Verification habits** — Written phase test reports that separate "tested", "partially tested" and "not claimed" — you can read them in `vind`.
+| Capability | Practical delivery |
+| :-- | :-- |
+| **AI / ML** | End-to-end tabular workflows: cleaning, features, train/test discipline, model comparison, and error analysis. |
+| **Python & data** | `pandas`/`NumPy` pipelines, CSV/JSON ingestion, scraping, REST APIs, and small CLI utilities. |
+| **RAG & LLM systems** | Chunking, embeddings, hybrid retrieval, evidence-cited generation, and auditable model/confidence metadata. |
+| **Application engineering** | Typed TypeScript, schema/index design, ownership-scoped queries, soft deletes, health endpoints, and migrations. |
+| **Databases** | MySQL and SQLite relational modelling, joins, aggregation, and query-aware design. |
+| **Tooling & verification** | GitHub Actions, VS Code, Jupyter/Colab, Prettier, npm/pnpm, and written test reports. |
+
+<p align="center">
+  <img src="https://img.shields.io/badge/BUILD-AI%2FML-FFD700?style=for-the-badge&labelColor=111111" alt="AI and machine learning" />
+  <img src="https://img.shields.io/badge/BUILD-RAG%20%2B%20LLM-FFD700?style=for-the-badge&labelColor=111111" alt="RAG and LLM systems" />
+  <img src="https://img.shields.io/badge/BUILD-PYTHON%20%2B%20DATA-FFD700?style=for-the-badge&labelColor=111111" alt="Python and data" />
+</p>
 
 ## Currently learning
 
-Ordered by how much of my week they get. Treat this list as study, not expertise.
+> **Current focus:** deeper retrieval quality, stronger evaluation, and production-ready AI reliability.
 
-- **Advanced RAG** — chunk overlap and windowing, hybrid ranking, and knowing when a reranker is worth the latency
-- **Retrieval evaluation** — measuring whether the right passage was found, not only whether the answer looked plausible
-- **LLM output verification** — structured verdicts, confidence reporting, citation checking, regression tests for prompts
-- **AI agent reliability** — retry and recovery semantics, tool-permission gates, memory that can be inspected
-- **Applied ML depth** — gradient boosting, calibration, class imbalance handling, leakage hunting
-- **Production-oriented habits** — logging, migrations under real constraints, deployment configuration on Vercel
+<details>
+<summary><strong>Open my learning roadmap</strong></summary>
 
-**Deliberately not claiming** — cloud platform certifications, container orchestration, or "AI research" work. Those are future goals, not present skills.
+<br />
+
+| Focus | What I am practising |
+| :-- | :-- |
+| **Advanced RAG** | Chunk overlap, windowing, hybrid ranking, and when reranking is worth the latency. |
+| **Retrieval evaluation** | Measuring whether the right passage was found — not only whether the answer sounds plausible. |
+| **LLM verification** | Structured verdicts, confidence reporting, citation checks, and prompt regression tests. |
+| **Agent reliability** | Retry/recovery semantics, permission gates, and inspectable memory. |
+| **Applied ML depth** | Gradient boosting, calibration, class imbalance, and leakage detection. |
+| **Production habits** | Logging, migrations under constraints, and deployment configuration on Vercel. |
+
+</details>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/LEARNING-Advanced_RAG-1A1A1A?style=flat-square&labelColor=111111" alt="Advanced RAG" />
+  <img src="https://img.shields.io/badge/LEARNING-Retrieval_Evaluation-1A1A1A?style=flat-square&labelColor=111111" alt="Retrieval evaluation" />
+  <img src="https://img.shields.io/badge/LEARNING-AI_Agent_Reliability-1A1A1A?style=flat-square&labelColor=111111" alt="AI agent reliability" />
+</p>
+
+> **Not claiming yet:** cloud certifications, container orchestration, or AI research work. Those are future goals, not present skills.
 
 ## Open to
 
-- AI / ML internships and applied-AI assistant research work
-- Python development: automation, data pipelines, scraping, small services
-- RAG and LLM-powered application builds (design → implementation → evaluation)
+**Internships, research assistance, freelance builds, and open-source collaboration** in applied AI.
+
+<p align="center">
+  <a href="mailto:sudaisoo72@gmail.com"><img src="https://img.shields.io/badge/CONTACT-Email_me-FFD700?style=for-the-badge&logo=gmail&logoColor=111111&labelColor=111111" alt="Email Muhammad Sudais" /></a>
+  <a href="https://www.linkedin.com/in/muhammad-sudais-/"><img src="https://img.shields.io/badge/CONNECT-LinkedIn-1A1A1A?style=for-the-badge&logo=linkedin&logoColor=FFD700&labelColor=111111" alt="Connect on LinkedIn" /></a>
+  <a href="https://www.fiverr.com/s/K3ea0jW"><img src="https://img.shields.io/badge/HIRE-Fiverr-1A1A1A?style=for-the-badge&logo=fiverr&logoColor=FFD700&labelColor=111111" alt="Hire on Fiverr" /></a>
+</p>
+
+<details>
+<summary><strong>Good fit for</strong> · click to expand</summary>
+
+<br />
+
+- AI / ML internships and applied-AI research assistance
+- Python automation, data pipelines, scraping, and small services
+- RAG and LLM applications from design to evaluation
 - Turning a trained notebook into a documented, runnable project
-- Open-source collaboration on retrieval, evaluation and agent tooling
-- Freelance briefs where an AI feature has to be verifiable, not just demo-able
+- Open-source work on retrieval, evaluation, and agent tooling
+- AI features where outputs need to be verifiable, not just demo-able
+
+</details>
 
 ## Coursework & certificates
 
-- **[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)** — DeepLearning.AI × Stanford Online · three courses: *Supervised Machine Learning: Regression and Classification*, *Advanced Learning Algorithms*, *Unsupervised Learning, Recommenders, and Reinforcement Learning*
-- **[Programming for Everybody (Getting Started with Python)](https://www.coursera.org/specializations/python)** — University of Michigan, Python for Everybody Specialization
-- **BS Artificial Intelligence** — Shifa Tameer-e-Millat University, Sept 2024 → June 2028 (coursework in programming, mathematics for ML, and AI systems)
+| Credential | Evidence |
+| :-- | :-- |
+| **Machine Learning Specialization** | [DeepLearning.AI × Stanford Online](https://www.coursera.org/specializations/machine-learning-introduction) · supervised learning, advanced algorithms, unsupervised learning, recommenders, and reinforcement learning. |
+| **Programming for Everybody** | [University of Michigan](https://www.coursera.org/specializations/python) · Python foundations through the Python for Everybody pathway. |
+| **BS Artificial Intelligence** | Shifa Tameer-e-Millat University · Sept 2024–June 2028 · programming, mathematics for ML, and AI systems. |
+
+<p align="center">
+  <img src="https://img.shields.io/badge/STUDY-Machine_Learning-FFD700?style=flat-square&labelColor=111111" alt="Machine learning study" />
+  <img src="https://img.shields.io/badge/STUDY-Python-FFD700?style=flat-square&labelColor=111111" alt="Python study" />
+  <img src="https://img.shields.io/badge/DEGREE-BS_Artificial_Intelligence-FFD700?style=flat-square&labelColor=111111" alt="BS Artificial Intelligence" />
+</p>
 
 ## GitHub analytics
 
