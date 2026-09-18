@@ -13,36 +13,19 @@
   ===========================================================================
 -->
 
-<!-- HERO — avatar, name, role, animated line, value proposition, CTAs -->
+<!-- HERO — cream editorial banner inspired by the applied-AI portfolio homepage -->
 
 <p align="center">
-  <a href="https://github.com/sudais-ai">
-    <img src="https://avatars.githubusercontent.com/u/203084465?s=256&v=4" width="128" alt="Portrait of Muhammad Sudais" />
-  </a>
+  <img src="https://raw.githubusercontent.com/sudais-ai/sudais-ai/main/assets/profile-hero.svg" alt="Cream editorial banner: Build the signal behind the answer — Muhammad Sudais, applied AI and Python" width="100%" />
 </p>
-
-<h1 align="center">Muhammad Sudais</h1>
 
 <p align="center">
   <strong>Applied AI Engineer · RAG Systems · Python</strong><br />
-  <sub>BS Artificial Intelligence · Shifa Tameer-e-Millat University · 2024–2028</sub><br />
-  <sub>Malakand Division, Khyber Pakhtunkhwa, Pakistan</sub>
+  <sub>BS Artificial Intelligence · Shifa Tameer-e-Millat University · 2024–2028 · Pakistan (GMT+5)</sub>
 </p>
 
 <p align="center">
-  <img
-    src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&duration=2600&pause=900&color=FFD700&center=true&vCenter=true&width=620&height=44&lines=AI+%2F+Machine+Learning+Developer;I+build+practical+RAG+systems;LLM+apps+with+retrieval+%2B+verification;Turning+ML+ideas+into+working+products"
-    alt="Rotating headline: Applied AI engineer building RAG, LLM, and ML products"
-    width="620"
-  />
-</p>
-
-<p align="center">
-  <img
-    src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=15&duration=2300&pause=700&color=8B8B8B&center=true&vCenter=true&width=620&height=30&lines=TradeReady+AI+%C2%B7+VindicAI+%C2%B7+Tool--Wear+Detection;Evidence-first+systems+%C2%B7+Reliable+pipelines+%C2%B7+Auditable+outputs"
-    alt="Rotating featured project line: TradeReady AI, VindicAI, and Tool-Wear Detection"
-    width="620"
-  />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=2600&pause=900&color=B28630&center=true&vCenter=true&width=720&height=38&lines=I+build+practical+RAG+systems;LLM+apps+with+retrieval+%2B+verification;Turning+ML+ideas+into+working+products;TradeReady+AI+%C2%B7+VindicAI+%C2%B7+Tool--Wear+Detection" alt="Animated headline: evidence-first AI systems and featured projects" width="720" />
 </p>
 
 <p align="center">
@@ -51,22 +34,22 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/STATUS-open_to_AI%2FML_internships-FFD700?style=flat-square&labelColor=111111" alt="Open to AI and ML internships" />
-  <img src="https://img.shields.io/badge/FOCUS-RAG_%C2%B7_LLM_%C2%B7_ML-1A1A1A?style=flat-square&labelColor=111111" alt="Focus: RAG, LLM, and machine learning" />
-  <img src="https://img.shields.io/badge/BASE-Pakistan_%C2%B7_GMT%2B5-1A1A1A?style=flat-square&labelColor=111111" alt="Based in Pakistan, GMT plus 5" />
+  <img src="https://img.shields.io/badge/OPEN_TO-AI%2FML_INTERNSHIPS-B28630?style=for-the-badge&labelColor=171614" alt="Open to AI and ML internships" />
+  <img src="https://img.shields.io/badge/FOCUS-RAG_%C2%B7_LLM_%C2%B7_ML-5C5145?style=for-the-badge&labelColor=F3EBDD" alt="Focus: RAG, LLM, and machine learning" />
+  <img src="https://img.shields.io/badge/BASE-PAKISTAN_%C2%B7_GMT%2B5-5C5145?style=for-the-badge&labelColor=F3EBDD" alt="Based in Pakistan, GMT plus 5" />
 </p>
 
 <p align="center">
-  <a href="https://msudaisai.netlify.app"><img src="https://img.shields.io/badge/EXPLORE-Portfolio-FFD700?style=for-the-badge&logo=netlify&logoColor=111111&labelColor=111111" alt="Explore portfolio" /></a>
-  <a href="https://github.com/sudais-ai"><img src="https://img.shields.io/badge/FOLLOW-GitHub-1A1A1A?style=for-the-badge&logo=github&logoColor=FFD700&labelColor=111111" alt="Follow on GitHub" /></a>
-  <a href="https://www.linkedin.com/in/muhammad-sudais-/"><img src="https://img.shields.io/badge/CONNECT-LinkedIn-1A1A1A?style=for-the-badge&logo=linkedin&logoColor=FFD700&labelColor=111111" alt="Connect on LinkedIn" /></a>
-  <a href="mailto:sudaisoo72@gmail.com"><img src="https://img.shields.io/badge/CONTACT-Email-1A1A1A?style=for-the-badge&logo=gmail&logoColor=FFD700&labelColor=111111" alt="Contact by email" /></a>
+  <a href="https://msudaisai.netlify.app"><img src="https://img.shields.io/badge/EXPLORE-PORTFOLIO-B28630?style=for-the-badge&logo=netlify&logoColor=FFFDF8&labelColor=171614" alt="Explore portfolio" /></a>
+  <a href="https://github.com/sudais-ai"><img src="https://img.shields.io/badge/FOLLOW-GITHUB-5C5145?style=for-the-badge&logo=github&logoColor=B28630&labelColor=F3EBDD" alt="Follow on GitHub" /></a>
+  <a href="https://www.linkedin.com/in/muhammad-sudais-/"><img src="https://img.shields.io/badge/CONNECT-LINKEDIN-5C5145?style=for-the-badge&logo=linkedin&logoColor=B28630&labelColor=F3EBDD" alt="Connect on LinkedIn" /></a>
+  <a href="mailto:sudaisoo72@gmail.com"><img src="https://img.shields.io/badge/CONTACT-EMAIL-B28630?style=for-the-badge&logo=gmail&logoColor=FFFDF8&labelColor=171614" alt="Contact by email" /></a>
 </p>
 
 <p align="center">
-  <a href="https://www.fiverr.com/s/K3ea0jW"><img src="https://img.shields.io/badge/HIRE-Fiverr-FFD700?style=for-the-badge&logo=fiverr&logoColor=111111&labelColor=111111" alt="Hire on Fiverr" /></a>
-  <a href="https://www.upwork.com/freelancers/~0104d5606ec877e71d"><img src="https://img.shields.io/badge/HIRE-Upwork-FFD700?style=for-the-badge&logo=upwork&logoColor=111111&labelColor=111111" alt="Hire on Upwork" /></a>
-  <a href="https://x.com/JGaHSzU3U641571"><img src="https://img.shields.io/badge/FOLLOW-X-1A1A1A?style=for-the-badge&logo=x&logoColor=FFD700&labelColor=111111" alt="Follow on X" /></a>
+  <a href="https://www.fiverr.com/s/K3ea0jW"><img src="https://img.shields.io/badge/HIRE-FIVERR-FFFDF8?style=for-the-badge&logo=fiverr&logoColor=171614&labelColor=B28630" alt="Hire on Fiverr" /></a>
+  <a href="https://www.upwork.com/freelancers/~0104d5606ec877e71d"><img src="https://img.shields.io/badge/HIRE-UPWORK-FFFDF8?style=for-the-badge&logo=upwork&logoColor=171614&labelColor=B28630" alt="Hire on Upwork" /></a>
+  <a href="https://x.com/JGaHSzU3U641571"><img src="https://img.shields.io/badge/FOLLOW-X-5C5145?style=for-the-badge&logo=x&logoColor=B28630&labelColor=F3EBDD" alt="Follow on X" /></a>
 </p>
 
 <p align="center">
@@ -102,7 +85,7 @@ I am a **BS Artificial Intelligence student** building practical AI systems in P
 
 ## Selected work
 
-### ◈ TradeReady AI · evidence-backed trade-compliance copilot
+### ◈ TRADE_READY AI · evidence-backed trade-compliance copilot
 
 Import shipment documents, build a requirements checklist, and receive assessments that cite the exact source passage.
 
@@ -121,7 +104,7 @@ Import shipment documents, build a requirements checklist, and receive assessmen
 Each verdict stores confidence, model metadata, and evidence connected to a document chunk. The repository also includes session security, audit logging, health checks, soft deletes, and stale-job recovery.
 
 
-### ◈ VindicAI · research and case workspace
+### ◈ VINDICAI · research and case workspace
 
 A multi-tenant foundation where claims stay attached to evidence, citations, research runs, and audit history.
 
@@ -140,7 +123,7 @@ A multi-tenant foundation where claims stay attached to evidence, citations, res
 Foundation phase: tenant-isolation checks and automated tests are documented in the repository. Email/password screens remain mock-only, and production deployment is not claimed.
 
 
-### ◈ Tool-Wear Detection · applied machine learning notebook
+### ◈ TOOL-WEAR DETECTION · applied machine learning notebook
 
 A reproducible CNC sensor-data workflow covering cleaning, feature engineering, model comparison, and error inspection.
 
