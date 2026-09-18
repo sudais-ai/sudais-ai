@@ -74,9 +74,17 @@
 
 ---
 
-## About
+<h2 align="center">✦ About / Systems-minded AI builder</h2>
 
-I am a **BS Artificial Intelligence student** building practical AI systems in Python — with a focus on **RAG, document intelligence, LLM applications, and verification**.
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Space+Mono&weight=600&size=16&duration=2600&pause=850&color=1769FF&center=true&vCenter=true&width=760&height=34&lines=From+theory+to+working+systems.;Retrieval+that+can+be+checked.;AI+that+knows+where+its+answer+came+from." alt="Animated About headline" width="760" />
+</p>
+
+I am a **BS Artificial Intelligence student** who turns theory into inspectable systems — from classical machine-learning workflows to modern **RAG architecture, LLM applications, and verification-first product engineering**.
+
+My focus is not collecting tools. It is understanding how **retrieval, evidence, safety, and recovery** compose: how a document becomes structured context, how a model output keeps a proof trail, and how a system behaves when a job fails or a claim cannot be supported.
+
+That thinking shows up in the work here: hybrid keyword–vector retrieval, source-linked assessments, durable processing states, ownership-scoped data, audit history, and written test reports. I am early in my career, open to **AI/ML internships, applied research, and thoughtful engineering problems** where careful reasoning matters.
 
 > **My principle:** useful AI should be grounded in evidence, transparent about its limits, and built to recover when things fail.
 
