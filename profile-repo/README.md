@@ -13,11 +13,9 @@
   ===========================================================================
 -->
 
-<!-- HERO — cream editorial banner inspired by the applied-AI portfolio homepage -->
+<!-- HERO — text-first editorial profile header with lightweight animated lines -->
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/sudais-ai/sudais-ai/main/assets/profile-hero.svg" alt="Cream editorial banner: Build the signal behind the answer — Muhammad Sudais, applied AI and Python" width="100%" />
-</p>
+<h1 align="center">Muhammad Sudais</h1>
 
 <p align="center">
   <strong>Applied AI Engineer · RAG Systems · Python</strong><br />
@@ -25,7 +23,11 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=2600&pause=900&color=B28630&center=true&vCenter=true&width=720&height=38&lines=I+build+practical+RAG+systems;LLM+apps+with+retrieval+%2B+verification;Turning+ML+ideas+into+working+products;TradeReady+AI+%C2%B7+VindicAI+%C2%B7+Tool--Wear+Detection" alt="Animated headline: evidence-first AI systems and featured projects" width="720" />
+  <img src="https://readme-typing-svg.demolab.com?font=Space+Mono&weight=700&size=27&duration=2600&pause=850&color=B28630&center=true&vCenter=true&width=820&height=55&lines=Build+the+signal+behind+the+answer.;Evidence-first+AI+systems.;Retrieval+%2B+verification+%2B+working+products." alt="Animated headline: Build the signal behind the answer" width="820" />
+</p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Space+Mono&weight=500&size=15&duration=2300&pause=750&color=8B7550&center=true&vCenter=true&width=760&height=34&lines=TradeReady+AI+%C2%B7+VindicAI+%C2%B7+Tool--Wear+Detection;RAG+systems+%C2%B7+LLM+apps+%C2%B7+Python+%C2%B7+ML+evaluation;Useful%2C+inspectable%2C+and+built+to+recover." alt="Animated focus line: featured projects and applied AI focus" width="760" />
 </p>
 
 <p align="center">
