@@ -56,7 +56,20 @@
 </p>
 
 <p align="center">
-  <a href="#about">About</a> · <a href="#selected-work">Selected work</a> · <a href="#tech-stack">Tech stack</a> · <a href="#skills-by-category">Skills</a> · <a href="#currently-learning">Learning</a> · <a href="#coursework--certificates">Certificates</a> · <a href="#github-analytics">Analytics</a> · <a href="#contact">Contact</a>
+  <a href="#about"><img src="https://img.shields.io/badge/01-ABOUT-FFFDF8?style=for-the-badge&labelColor=B28630&color=171614" alt="About" /></a>
+  <a href="#selected-work"><img src="https://img.shields.io/badge/02-SELECTED_WORK-5C5145?style=for-the-badge&labelColor=F3EBDD&color=5C5145" alt="Selected work" /></a>
+  <a href="#tech-stack"><img src="https://img.shields.io/badge/03-TECH_STACK-5C5145?style=for-the-badge&labelColor=F3EBDD&color=5C5145" alt="Tech stack" /></a>
+  <a href="#skills-by-category"><img src="https://img.shields.io/badge/04-SKILLS-FFFDF8?style=for-the-badge&labelColor=B28630&color=171614" alt="Skills" /></a>
+</p>
+<p align="center">
+  <a href="#currently-learning"><img src="https://img.shields.io/badge/05-LEARNING-5C5145?style=for-the-badge&labelColor=F3EBDD&color=5C5145" alt="Learning" /></a>
+  <a href="#coursework--certificates"><img src="https://img.shields.io/badge/06-CERTIFICATES-FFFDF8?style=for-the-badge&labelColor=B28630&color=171614" alt="Certificates" /></a>
+  <a href="#github-analytics"><img src="https://img.shields.io/badge/07-ANALYTICS-5C5145?style=for-the-badge&labelColor=F3EBDD&color=5C5145" alt="Analytics" /></a>
+  <a href="#contact"><img src="https://img.shields.io/badge/08-CONTACT-FFFDF8?style=for-the-badge&labelColor=B28630&color=171614" alt="Contact" /></a>
+</p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Space+Mono&weight=500&size=12&duration=3000&pause=1100&color=B28630&center=true&vCenter=true&width=480&height=24&lines=Choose+a+section+to+inspect+%E2%86%92;Every+button+leads+to+the+evidence." alt="Animated navigation hint" width="480" />
 </p>
 
 ---
