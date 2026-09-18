@@ -23,7 +23,7 @@
 <sub>BS Artificial Intelligence · Shifa Tameer-e-Millat University · 2024–2028 · Pakistan (GMT+5)</sub>
 </td>
 <td align="right" valign="middle" width="22%">
-<a href="https://app.lottiefiles.com/share/7fe6e11c-2b32-4a63-961d-696223bb12ca"><img src="https://raw.githubusercontent.com/sudais-ai/sudais-ai/main/assets/sudais-lottie.gif" width="180" alt="Animated Lottie AI robot visual — open the animation" /></a>
+<a href="https://lottie.host/embed/8f45f9b1-952d-4030-9f67-254bacc4fee2/J6Em46QTOg.lottie"><img src="https://raw.githubusercontent.com/sudais-ai/sudais-ai/main/assets/sudais-lottie.gif" width="180" alt="Animated Lottie AI robot visual — open the animation" /></a>
 </td>
 </tr>
 </table>
